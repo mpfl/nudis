@@ -3,10 +3,10 @@ layout: default
 title: Home
 ---
 
-<h1>{{ site.title }}</h1>>
+<h1>{{ site.title }}</h1>
 
 <ul>
     {% for species in site.species %}
-        <li>{{ species.genus }} {{ species.species }}</li>
+        <li><a href="{{ species.url }}">{{ species.genus }} {{ species.species }}</a></li>
     {% endfor %}
 </ul>

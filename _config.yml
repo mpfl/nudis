@@ -9,4 +9,5 @@ author:
 
 collections:
   species:
+     output: true
   observations:
