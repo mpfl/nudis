@@ -4,17 +4,19 @@ layout: default
 
 <h1>{{ page.genus }} {{ page.species}} </h1>
 
+<p>{{ page.description }}</p>
+
+<p>Family {{ page.family }}</p>
+
 <h2>Observations</h2>
 
-<ul>
+<img src="{{ site.baseurl }}/assets/images/{{ observation.name }}"
     {% for observation in site.observations %}
         {% if observation.genus == page.genus and observation.species == page.species %}
-            <li>
+                <img src="{{ site.baseurl }}/assets/images/{{ observation.name }}"
                 {{ observation.day }}/{{ observation.month }}/{{ observation.year }} at {{ observation.diveSiteName}}
-            </li>
         {% endif %}
     {% endfor %}
-</ul>
 
     <h2>Links</h2>
 <p>
