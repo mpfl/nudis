@@ -8,9 +8,9 @@ layout: default
 
 <ul>
     {% for observation in site.observations %}
-        {% if observation.genus == page.genus && observation.species == page.species %}
+        {% if observation.genus == page.genus and observation.species == page.species %}
             <li>
-                {{ observation.day }}/{{ observation.month }}/{{ observation.year }}
+                {{ observation.day }}/{{ observation.month }}/{{ observation.year }} at {{ observation.diveSiteName}}
             </li>
         {% endif %}
     {% endfor %}
