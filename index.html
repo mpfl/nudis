@@ -7,6 +7,6 @@ title: Home
 
 <ul>
     {% for species in site.species %}
-        <li><a href="{{ species.url }}">{{ species.genus }} {{ species.species }}</a></li>
+        <li><a href="{{ site.baseurl }}{{ species.url }}">{{ species.genus }} {{ species.species }}</a></li>
     {% endfor %}
 </ul>

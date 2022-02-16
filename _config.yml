@@ -2,6 +2,7 @@
 title: Nudibranchs of southwest Australia
 description: "An incomplete field guide to nudibranchs and allied clades of southwest Australia."
 url: "https://mpfl.github.io/nudis/"
+baseurl: "/nudis"
 author:
   name: "Matthias Liffers"
   email: "m@tthi.as"
@@ -10,7 +11,7 @@ author:
 collections:
   species:
      output: true
-     permalink: /:collection/:name
+     permalink: /species/:name
   observations:
 
 defaults:
