@@ -34,6 +34,7 @@ erDiagram
         integer hour
         integer minute
         integer rating
+        date date
     }
 ```
 
