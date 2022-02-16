@@ -1,0 +1,17 @@
+{% assign families = "" %}
+
+{% for species in site.species %}
+    Checking {{ species.family }}<br/>
+    {% if families contains species.family %}
+        Already contains {{ species.family }}<br/>
+    {% else %}
+        Adding {{ species.family }}<br/>
+        {% assign families = families | join: "," |  append: "," | append species.family | split: ","%}
+    {% endif %}
+{% endfor %}
+
+<ul>
+    {% for family in families | sort %}
+        <li>{{ family }}</li>
+    {% endfor %}
+</ul>

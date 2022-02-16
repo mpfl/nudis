@@ -1,0 +1,5 @@
+<ul>
+    {% for species in site.species %}
+        <li><a href="{{ site.baseurl }}{{ species.url }}">{{ species.genus }} {{ species.species }}</a></li>
+    {% endfor %}
+</ul>
