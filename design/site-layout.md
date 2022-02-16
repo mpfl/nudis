@@ -4,6 +4,7 @@
     graph TD;
         allSpeciesList-->species;
         allSpeciesThumbs-->familySpeciesThumbs;
+        allSpeciesThumbs-->species;
         familySpeciesThumbs-->species;
         familySpeciesThumbs-->genusSpeciesThumbs;
         genusSpeciesThumbs-->species;

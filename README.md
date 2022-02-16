@@ -1,3 +1,5 @@
+[![CITATION.cff](https://github.com/mpfl/nudis/actions/workflows/citation.cff.yml/badge.svg)](https://github.com/mpfl/nudis/actions/workflows/citation.cff.yml)
+
 # Nudibranchs of Southwest Australia field guide
 
 This repo builds a website that acts as a field guide for nudibranchs (and allied/confused species) in Western Australia, including both endemic and invasive species.
