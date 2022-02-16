@@ -1,0 +1,7 @@
+{% assign genera = site.species | map: "genus" | compact | uniq | sort %}
+
+<ul>
+    {% for genus in genera | sort %}
+        <li>{{ genus }}</li>
+    {% endfor %}
+</ul>
