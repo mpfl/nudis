@@ -28,6 +28,11 @@ erDiagram
         float longitude
         float depth
         float temperature
+        integer year
+        integer month
+        integer day
+        integer hour
+        integer minute
         integer rating
     }
 ```
