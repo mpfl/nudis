@@ -13,7 +13,7 @@ layout: default
 <img src="{{ site.baseurl }}/assets/images/{{ observation.name }}"
     {% for observation in site.observations %}
         {% if observation.genus == page.genus and observation.species == page.species %}
-                <img src="{{ site.baseurl }}/assets/images/{{ observation.name }}"
+                <img src="{{ site.baseurl }}/assets/images/{{ observation.path | split: '/' | last | split: '.' | first }}.jpg"
                 {{ observation.day }}/{{ observation.month }}/{{ observation.year }} at {{ observation.diveSiteName}}
         {% endif %}
     {% endfor %}
