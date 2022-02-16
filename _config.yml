@@ -6,3 +6,7 @@ author:
   name: "Matthias Liffers"
   email: "m@tthi.as"
   url: "http://ma.tthi.as/"
+
+collections:
+  species:
+  observations:
