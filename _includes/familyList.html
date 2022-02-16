@@ -1,4 +1,4 @@
-{% assign families = sites.species | map: "family" | compact | uniq | sort %}
+{% assign families = site.species | map: "family" | compact | uniq | sort %}
 
 <ul>
     {% for family in families | sort %}
