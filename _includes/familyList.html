@@ -1,14 +1,4 @@
-{% assign families = "" %}
-
-{% for species in site.species %}
-    Checking {{ species.family }}<br/>
-    {% if families contains species.family %}
-        Already contains {{ species.family }}<br/>
-    {% else %}
-        Adding {{ species.family }}<br/>
-        {% assign families = families | join: "," |  append: "," | append species.family | split: "," %}
-    {% endif %}
-{% endfor %}
+{% assign families = sites.species | map "family" | compact | uniq | sort %}
 
 <ul>
     {% for family in families | sort %}
