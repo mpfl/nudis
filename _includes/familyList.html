@@ -6,7 +6,7 @@
         Already contains {{ species.family }}<br/>
     {% else %}
         Adding {{ species.family }}<br/>
-        {% assign families = families | join: "," |  append: "," | append species.family | split: ","%}
+        {% assign families = families | join: "," |  append: "," | append species.family | split: "," %}
     {% endif %}
 {% endfor %}
 
