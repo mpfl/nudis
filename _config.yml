@@ -16,7 +16,7 @@ collections:
 
 defaults:
   - scope:
-      path: "species"
+      path: "_species"
       type: "species"
     values:
       layout: "species"
