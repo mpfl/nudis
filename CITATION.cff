@@ -1,11 +1,12 @@
 cff-version: 1.2.0
 message: "If you use this repo, please cite it using these metadata."
+title: "Nudibranchs of southwest Australia"
+abstract: "An incomplete field guide to nudibranchs and allied clades of southwest Australia"
 authors:
   - family-names: "Liffers"
     given-names: "Matthias"
     orcid: https://orcid.org/0000-0002-3639-2080
-title: "Nudibranchs of southwest Australia"
 version: 0.1.0
 date-released: 2022-02-16
 license: "CC-BY-4.0"
-url: https://github.com/mpfl/nudis
+repository-code: "https://github.com/mpfl/nudis"
