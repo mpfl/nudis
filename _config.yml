@@ -11,3 +11,10 @@ collections:
   species:
      output: true
   observations:
+
+defaults:
+  - scope:
+      path: "species"
+      type: "species"
+    values:
+      layout: "species"
