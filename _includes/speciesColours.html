@@ -1,0 +1,8 @@
+{% assign colours = "" | split: ","%}
+{% for species in site.species %}
+    {% assign colours = colours | concat species.colours %}
+{% endfor %}
+
+{% for colour in colours | uniq | sort %}
+    {{ colour }}
+{% endfor %}

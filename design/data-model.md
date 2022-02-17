@@ -14,6 +14,7 @@ erDiagram
         string eolID
         string wikipediaURL
         string comments
+        stringarray colours
     }
     Observation }|--|| Species: contains
     Observation {
