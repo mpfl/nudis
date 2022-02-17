@@ -3,7 +3,7 @@ family: Chromodorididae
 genus: Ceratosoma
 species: brevicaudatum
 description: Abraham, 1876
-colors:
+colours:
   - white
   - purple
   - orange
