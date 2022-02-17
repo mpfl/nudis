@@ -1,4 +1,4 @@
 {% for species in site.species %}
-    {% assign speciesBestObservation = site.observations | where: "genus", species.genus | where: "species", species.species | sort: "rating" | reverse | first %}
+    {% assign speciesBestObservation = site.observations | where: "genus", species.genus | where: "species", species.species | sort: "rating" | last %}
     <a href="{{ site.baseurl }}{{ species.url }}"><img style="width: 400px;" src="{{ site.baseurl }}/assets/images/{{ speciesBestObservation.path | split: '/' | last | split: '.' | first }}.jpg" /></a>
 {% endfor %}
