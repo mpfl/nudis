@@ -6,15 +6,11 @@
 
 {% assign colours = colours | uniq | sort %}
 
-{% for colour in colours | uniq | sort %}
-    {{ colour }}
-{% endfor %}
-
 <label for="colour">Colour</label>
 
 <select name="colour" id="colour">
     <option value=""></option>
-    {% for colour in colours | uniq | sort %}
+    {% for colour in colours %}
         <option value="{{ colour }}">{{ colour | capitalize }}</option>
     {% endfor %}
 </select>
