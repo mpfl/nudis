@@ -8,6 +8,7 @@
         familySpeciesThumbs-->species;
         familySpeciesThumbs-->genusSpeciesThumbs;
         genusSpeciesThumbs-->species;
+        species-->observation;
 ```
 
 ## allSpeciesList
@@ -29,3 +30,7 @@ One per genus: the highest-rated thumbnail for each species of that genus.
 ## species
 
 One per species: Detailed information of that species.
+
+## observation
+
+One per observation: Detailed information of that observation.

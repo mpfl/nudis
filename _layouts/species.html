@@ -13,7 +13,7 @@ layout: default
     {% for observation in site.observations %}
         {% if observation.genus == page.genus and observation.species == page.species %}
                 <p>
-                    <img style="width: 400px;" src="{{ site.baseurl }}/assets/images/{{ observation.path | split: '/' | last | split: '.' | first }}.jpg" /><br />
+                    <a href="{{ site.baseurl }}/{{ observation.path }}"><img style="width: 400px;" src="{{ site.baseurl }}/assets/images/{{ observation.path | split: '/' | last | split: '.' | first }}.jpg" /></a><br />
                     {{ observation.date | date: "%Y-%m-%d %H:%M" }} by <a href="{{ observation.observerORCID}}">{{ observation.observer }}</a> at <a href="http://www.openstreetmap.org/?mlat={{ observation.latitude }}&mlon={{ observation.longitude }}&zoom=12&layers=M">{{ observation.diveSiteName }}</a>
                 </p>
         {% endif %}

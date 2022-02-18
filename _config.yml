@@ -10,9 +10,11 @@ author:
 
 collections:
   species:
-     output: true
-     permalink: /species/:name
+    output: true
+    permalink: /species/:name
   observations:
+    output: true
+    permalink: /observation/:name
 
 defaults:
   - scope:
@@ -20,3 +22,8 @@ defaults:
       type: "species"
     values:
       layout: "species"
+  - scope:
+      path: "_observations"
+      type: "observation"
+    values:
+      layout: "observation"
