@@ -3,5 +3,5 @@
         {% assign speciesBestObservation = site.observations | where: "genus", species.genus | where: "species", species.species | sort: "rating" | last %}
         <a href="{{ site.baseurl }}{{ species.url }}"><img style="width: 400px; float: left" class="thumb {% for colour in species.colours %}{{ colour }} {% endfor %}{{ species.family }} {{ species.genus }}" src="{{ site.baseurl }}/assets/images/{{ speciesBestObservation.path | split: '/' | last | split: '.' | first }}.jpg" /></a>
     {% endfor %}
+    <div style="float: clear"></div>
 </div>
-<div markdown="0" style="float: clear"></div>
