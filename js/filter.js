@@ -13,7 +13,7 @@ function hideShowThumbs() {
     for ( i = 0; i < allThumbs.length; i++) {
         allThumbs[i].style.display = "none";
     }
-    for ( i = 0; i < thumbs.length; i++) {
+    for ( i = 0; i < thumbsToShow.length; i++) {
         thumbstoShow[i].style.display = "inline";
     }
 }
