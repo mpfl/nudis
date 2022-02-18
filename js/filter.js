@@ -1,13 +1,13 @@
 
 function init() {
-    var filters = document.getElementsByClass("filter");
+    var filters = document.getElementsByClassName("filter");
     for ( i = 0; i < filters.length; i++) {
         filters[i].addEventListener('change', function() { hideShowThumbs() }, false);        
     }
 }
 
 function hideShowThumbs() {
-    var filters = document.getElementsByClass("filter");
+    var filters = document.getElementsByClassName("filter");
     var allFilters = "";
     for (i = 0; i < filters.length; i++) {
         allFilters = allFilters + filters[i].options[colour_select.selectedIndex].value + " ";
