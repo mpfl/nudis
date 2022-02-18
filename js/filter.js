@@ -7,7 +7,7 @@ function init() {
 function hideShowThumbs() {
     var colour_select = document.getElementById("colour_select");
     var colour = colour_select.options[colour_select.selectedIndex].value;
-    if ( colour == "all" ) {
+    if ( colour == "" ) {
         thumbsToShow = document.getElementsByClassName("thumb");
         for ( i = 0; i < thumbsToShow.length; i++) {
             thumbsToShow[i].style.display = "inline";
