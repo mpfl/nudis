@@ -6,7 +6,7 @@ permalink: /test
 
 # {{ site.title }}
 
-## All families<
+## All families
 
 {% include familyList.html %}
 
