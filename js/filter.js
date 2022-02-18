@@ -10,7 +10,9 @@ function hideShowThumbs() {
     var filters = document.getElementsByClassName("filter");
     var allFilters = "";
     for (i = 0; i < filters.length; i++) {
-        allFilters = allFilters + filters[i].options[colour_select.selectedIndex].value + " ";
+        if (filters[i].options[filters[i].selectedIndex].value != "") {
+            allFilters = allFilters + filters[i].options[filters[i].selectedIndex].value + " ";
+        }
     }
     console.log(allFilters);
     if ( allFilters == "" ) {
