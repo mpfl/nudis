@@ -1,15 +1,8 @@
----
-layout: default
-title: Filter
----
-
 <form id="filters">
     {% include colourFilter.html %}
     {% include familyFilter.html %}
     {% include genusFilter.html %}
     <button id="reset" type="reset">Reset filters</button>
 </form>
-<br />
-{% include bestSpeciesThumbnails.html %}
 
 <script src="{{ site.url }}/js/filter.js"></script>

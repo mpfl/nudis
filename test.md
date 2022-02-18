@@ -1,30 +1,31 @@
 ---
 layout: default
 title: Home
+permalink: /test
 ---
 
-<h1>{{ site.title }}</h1>
+# {{ site.title }}</h1>
 
-<h2>All families</h2>
+## All families<
 
 {% include familyList.html %}
 
-<h2>All genera</h2>
+## All genera
 
 {% include genusList.html %}
 
-<h2>All species</h2>
+## All species
 
 {% include speciesList.html %}
 
-<h2>Species by family</h2>
+## Species by family
 
 {% include speciesByFamilyList.html %}
 
-<h2>All colours</h2>
+## All colours
 
 {% include speciesColours.html %}
 
-<h2>Best observation of each species</h2>
+## Best observation of each species
 
 {% include bestSpeciesThumbnails.html %}
