@@ -4,7 +4,7 @@ title: Home
 permalink: /test
 ---
 
-# {{ site.title }}</h1>
+# {{ site.title }}
 
 ## All families<
 
