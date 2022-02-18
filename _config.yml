@@ -14,7 +14,7 @@ collections:
     permalink: /species/:name
   observations:
     output: true
-    permalink: /observation/:name
+    permalink: /observations/:name
 
 defaults:
   - scope:
@@ -24,6 +24,6 @@ defaults:
       layout: "species"
   - scope:
       path: "_observations"
-      type: "observation"
+      type: "observations"
     values:
       layout: "observation"
