@@ -7,10 +7,14 @@ function init() {
 function hideShowThumbs() {
     var colour_select = document.getElementById("colour_select");
     var colour = colour_select.options[colour_select.selectedIndex].value;
-    var thumbs = document.getElementsByClassName("thumb");
-    console.log(thumbs.length);
+    var allThumbs = document.getElementsByClassName("thumb");
+    var thumbsToShow =  = document.getElementsByClassName(colour);
+    console.log(allThumbs.length);
+    for ( i = 0; i < allThumbs.length; i++) {
+        allThumbs[i].style.display = "none";
+    }
     for ( i = 0; i < thumbs.length; i++) {
-        thumbs[i].style.display = "none";
+        thumbstoShow[i].style.display = "inline";
     }
 }
 

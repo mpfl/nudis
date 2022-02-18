@@ -9,7 +9,7 @@
 <label for="colour">Colour</label>
 
 <select name="colour" id="colour_select">
-    <option value=""></option>
+    <option value="" selected></option>
     {% for colour in colours %}
         <option value="{{ colour }}">{{ colour | capitalize }}</option>
     {% endfor %}
