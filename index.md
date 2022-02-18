@@ -7,4 +7,4 @@ title: Home
 
 {% include filters.html %} [About this site]({{ site.baseurl }}/about)
 
-{% include bestSpeciesThumbnails.html %}
+{% include bestSpeciesThumbnails.html | strip_newlines %}
