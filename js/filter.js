@@ -9,6 +9,9 @@ function hideShowThumbs() {
     var colour = colour_select.options[colour_select.selectedIndex].value;
     var thumbs = document.getElementsByClassName("thumb");
     console.log(thumbs.length);
+    for ( i = 0; i < thumbs.length; i++) {
+        thumbs[i].style.display = "none";
+    }
 }
 
 init();
