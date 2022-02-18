@@ -7,7 +7,10 @@ function init() {
 function hideShowThumbs() {
     var colour_select = document.getElementById("colour_select");
     var colour = colour_select.options[colour_select.selectedIndex].value;
-    console.log(colour);
+    var thumbs = document.getElementsByClassName("thumb");
+    thumbs.forEach(element => {
+        element.style.display = "none";
+    });
 }
 
 init();
