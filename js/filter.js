@@ -2,8 +2,10 @@
 function init() {
     var filters = document.getElementsByClassName("filter");
     for ( i = 0; i < filters.length; i++) {
-        filters[i].addEventListener('change', function() { hideThumbs() }, false);        
+        filters[i].addEventListener('change', function() { filterThumbs() }, false);        
     }
+    var reset = document.getElementById("reset");
+    reset.addEventListener('click', function() { showAllThumbs() }, false);
 }
 
 function showAllThumbs() {
@@ -27,7 +29,7 @@ function showTheseThumbs(classes) {
     }
 }
 
-function hideThumbs() {
+function filterThumbs() {
     var filters = document.getElementsByClassName("filter");
     var allFilters = "";
     for (i = 0; i < filters.length; i++) {
