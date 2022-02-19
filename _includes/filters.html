@@ -1,12 +1,12 @@
-<form id="filters" class="form-horizontal">
-    <div markdown="0" class="container-fluid">
+<div markdown="0" class="container-fluid">
+    <form id="filters" class="row">
         {% include filterColour.html %}
         {% include filterFamily.html %}
         {% include filterGenus.html %}
         <div class="col">
             <button id="reset" type="reset" class="btn btn-primary">Reset filters</button>
         </div>
-    </div>
-</form>
+    </form>
+</div>
 
 <script src="{{ site.url }}/js/filter.js"></script>
