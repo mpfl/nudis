@@ -1,4 +1,4 @@
-<div markdown="0" class="form-floating">
+<div markdown="0" class="form-floating col">
     {% assign families = site.species | map: "family" | compact | uniq | sort %}
     <label for="family" class="col control-label">Family</label>
     <select name="family" id="family" class="form-control filter">
