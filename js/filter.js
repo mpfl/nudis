@@ -37,7 +37,6 @@ function filterThumbs() {
             allFilters = allFilters + filters[i].options[filters[i].selectedIndex].value + " ";
         }
     }
-    console.log(allFilters);
     if ( allFilters == "" ) {
         showAllThumbs();
     } else {
