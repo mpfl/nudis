@@ -1,7 +1,7 @@
 <div markdown="0" class="form-group">
     {% assign families = site.species | map: "family" | compact | uniq | sort %}
-    <label for="family" class="col-xs-3 control-label">Family</label>
-    <div class="col-xs-8">
+    <label for="family" class="col control-label">Family</label>
+    <div class="col">
         <select name="family" id="family" class="form-control filter">
             <option value=""></option>
             {% for family in families | sort %}

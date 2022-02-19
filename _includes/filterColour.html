@@ -4,8 +4,8 @@
         {% assign colours = colours | concat: species.colours %}
     {% endfor %}
     {% assign colours = colours | uniq | sort %}
-    <label for="colour" class="col-xs-3 control-label">Colour</label>
-    <div class="col-xs-8">
+    <label for="colour" class="col control-label">Colour</label>
+    <div class="col">
         <select name="colour" id="colour_select" class="form-control filter">
             <option value="" selected></option>
             {% for colour in colours %}

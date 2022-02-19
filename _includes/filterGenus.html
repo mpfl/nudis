@@ -1,7 +1,7 @@
 <div markdown="0" class="form-group">
     {% assign genera = site.species | map: "genus" | compact | uniq | sort %}
-    <label for="genus" class="col-xs-3 control-label">Genus</label>
-    <div class="col-xs-8">
+    <label for="genus" class="col control-label">Genus</label>
+    <div class="col">
         <select name="genus" id="genus" class="form-control filter">
             <option value=""></option>
             {% for genus in genera | sort %}
