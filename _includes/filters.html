@@ -1,8 +1,8 @@
-<div markdown="0">
-    <form id="filters">
-        {% include colourFilter.html %}
-        {% include familyFilter.html %}
-        {% include genusFilter.html %}
+<div markdown="0" class="col-xs-6">
+    <form id="filters" class="form-horizontal">
+        {% include filterColour.html %}
+        {% include filterFamily.html %}
+        {% include filterGenus.html %}
         <div class="float-start">
             <button id="reset" type="reset" class="btn btn-primary float-start">Reset filters</button>
         </div>
