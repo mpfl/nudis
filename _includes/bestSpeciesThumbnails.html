@@ -1,6 +1,9 @@
-<div markdown="0" class="container-fluid">
+<div markdown="0" class="row" data-masonry='{"percentPosition": true }'>
     {% for species in site.species %}
         {% assign speciesBestObservation = site.observations | where: "genus", species.genus | where: "species", species.species | sort: "rating" | last %}
-        <a href="{{ site.baseurl }}{{ species.url }}"><img alt="{{ species.genus }} {{ species.species }}" class="img-thumbnail float-start thumb {% for colour in species.colours %}{{ colour }} {% endfor %}{{ species.family }} {{ species.genus }}" src="{{ site.baseurl }}/assets/images/thumbs/{{ speciesBestObservation.path | split: '/' | last | split: '.' | first }}.jpg" /></a>
-    {% endfor %}
+        <div class="card">
+            <title>{{ species.genus }} {{ species.species }}</title>
+            <a href="{{ site.baseurl }}{{ species.url }}"><img alt="{{ species.genus }} {{ species.species }}" class="card-img img-thumbnail thumb {% for colour in species.colours %}{{ colour }} {% endfor %}{{ species.family }} {{ species.genus }}" src="{{ site.baseurl }}/assets/images/thumbs/{{ speciesBestObservation.path | split: '/' | last | split: '.' | first }}.jpg" /></a>
+        </div>
+        {% endfor %}
 </div>
