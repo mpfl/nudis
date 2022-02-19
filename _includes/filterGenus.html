@@ -1,12 +1,10 @@
-<div markdown="0" class="form-group">
+<div markdown="0" class="form-floating">
     {% assign genera = site.species | map: "genus" | compact | uniq | sort %}
     <label for="genus" class="col control-label">Genus</label>
-    <div class="col">
-        <select name="genus" id="genus" class="form-control filter">
-            <option value=""></option>
-            {% for genus in genera | sort %}
-                <option value="{{ genus }}">{{ genus | capitalize }}</option>
-            {% endfor %}
-        </select>
-    </div>
+    <select name="genus" id="genus" class="form-control filter">
+        <option value=""></option>
+        {% for genus in genera | sort %}
+            <option value="{{ genus }}">{{ genus | capitalize }}</option>
+        {% endfor %}
+    </select>
 </div>
