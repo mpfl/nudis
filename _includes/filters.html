@@ -3,7 +3,9 @@
         {% include colourFilter.html %}
         {% include familyFilter.html %}
         {% include genusFilter.html %}
-        <button id="reset" type="reset" style="float: left">Reset filters</button>
+        <div class="float-start">
+            <button id="reset" type="reset" class="btn btn-primary">Reset filters</button>
+        </div>
     </form>
 
     <script src="{{ site.url }}/js/filter.js"></script>
