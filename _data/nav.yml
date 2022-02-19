@@ -1,7 +1,5 @@
 pages:
-
 - title: Home
-  url: {{ site.url }}
-
+  url: /index
 - title: About
-  url: {{ site.url }}/about
+  url: /about
