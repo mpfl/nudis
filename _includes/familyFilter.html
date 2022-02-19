@@ -1,7 +1,7 @@
 <div markdown="0" class="float-start">
     {% assign families = site.species | map: "family" | compact | uniq | sort %}
-    <label for="family">Family</label>
-    <select name="family" id="family" class="filter">
+    <span class="input-group-text"><label for="family">Family</label></span>
+    <select name="family" id="family" class="form-control filter">
         <option value=""></option>
         {% for family in families | sort %}
             <option value="{{ family }}">{{ family | capitalize }}</option>
