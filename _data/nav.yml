@@ -1,5 +1,7 @@
 pages:
+
 - title: Home
   url: {{ site.url }}
+
 - title: About
   url: {{ site.url }}/about
