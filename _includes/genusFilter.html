@@ -1,10 +1,8 @@
-<div markdown="0">
-    {% assign genera = site.species | map: "genus" | compact | uniq | sort %}
-    <span class="input-group-text"><label for="genus">Genus</label></span>
-    <select name="genus" id="genus" class="form-control filter">
-        <option value=""></option>
-        {% for genus in genera | sort %}
-            <option value="{{ genus }}">{{ genus | capitalize }}</option>
-        {% endfor %}
-    </select>
-</div>
+{% assign genera = site.species | map: "genus" | compact | uniq | sort %}
+<span class="input-group-text"><label for="genus">Genus</label></span>
+<select name="genus" id="genus" class="form-control filter">
+    <option value=""></option>
+    {% for genus in genera | sort %}
+        <option value="{{ genus }}">{{ genus | capitalize }}</option>
+    {% endfor %}
+</select>

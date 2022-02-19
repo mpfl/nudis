@@ -1,14 +1,12 @@
-<div markdown="0">
-    {% assign colours = site.species[0].colours %}
-    {% for species in site.species %}
-        {% assign colours = colours | concat: species.colours %}
+{% assign colours = site.species[0].colours %}
+{% for species in site.species %}
+    {% assign colours = colours | concat: species.colours %}
+{% endfor %}
+{% assign colours = colours | uniq | sort %}
+<span class="input-group-text"><label for="colour">Colour</label></span>
+<select name="colour" id="colour_select" class="form-control filter">
+    <option value="" selected></option>
+    {% for colour in colours %}
+        <option value="{{ colour }}">{{ colour | capitalize }}</option>
     {% endfor %}
-    {% assign colours = colours | uniq | sort %}
-    <span class="input-group-text"><label for="colour">Colour</label></span>
-    <select name="colour" id="colour_select" class="form-control filter">
-        <option value="" selected></option>
-        {% for colour in colours %}
-            <option value="{{ colour }}">{{ colour | capitalize }}</option>
-        {% endfor %}
-    </select>
-</div>
+</select>
