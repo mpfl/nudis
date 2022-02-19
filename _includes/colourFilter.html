@@ -3,7 +3,7 @@
     {% assign colours = colours | concat: species.colours %}
 {% endfor %}
 {% assign colours = colours | uniq | sort %}
-<span class="input-group-text"><label for="colour">Colour</label></span>
+<label for="colour">Colour</label>
 <select name="colour" id="colour_select" class="form-control filter">
     <option value="" selected></option>
     {% for colour in colours %}

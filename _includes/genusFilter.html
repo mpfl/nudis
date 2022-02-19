@@ -1,5 +1,5 @@
 {% assign genera = site.species | map: "genus" | compact | uniq | sort %}
-<span class="input-group-text"><label for="genus">Genus</label></span>
+<label for="genus">Genus</label>
 <select name="genus" id="genus" class="form-control filter">
     <option value=""></option>
     {% for genus in genera | sort %}

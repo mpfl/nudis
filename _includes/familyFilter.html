@@ -1,5 +1,5 @@
 {% assign families = site.species | map: "family" | compact | uniq | sort %}
-<span class="input-group-text"><label for="family">Family</label></span>
+<label for="family">Family</label>
 <select name="family" id="family" class="form-control filter">
     <option value=""></option>
     {% for family in families | sort %}
