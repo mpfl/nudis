@@ -5,7 +5,7 @@
     {% endfor %}
     {% assign colours = colours | uniq | sort %}
     <label for="colour">Colour</label>
-    <select name="colour" id="colour_select" class="form-control filter">
+    <select name="colour" id="colour_select" class="form-select filter">
         <option value="" selected></option>
         {% for colour in colours %}
             <option value="{{ colour }}">{{ colour | capitalize }}</option>
