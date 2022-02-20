@@ -13,10 +13,6 @@ function showAllThumbs() {
     for ( i = 0; i < thumbsToShow.length; i++) {
         thumbsToShow[i].style.display = "inline";
     }
-    var msnry = new Masonry('.row', {
-        itemSelector: '.col',
-        percentPosition: true
-    });
 }
 
 function hideAllThumbs() {
@@ -47,10 +43,6 @@ function filterThumbs() {
         hideAllThumbs();
         showTheseThumbs(allFilters);
     }
-    var msnry = new Masonry('.row', {
-        itemSelector: '.col',
-        percentPosition: true
-    });
 }
 
 init();
