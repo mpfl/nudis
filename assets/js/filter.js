@@ -13,6 +13,7 @@ function showAllThumbs() {
     for ( i = 0; i < thumbsToShow.length; i++) {
         thumbsToShow[i].style.display = "inline";
     }
+    msnry.layout()
 }
 
 function hideAllThumbs() {
@@ -43,6 +44,7 @@ function filterThumbs() {
         hideAllThumbs();
         showTheseThumbs(allFilters);
     }
+    msnry.layout()
 }
 
 init();
