@@ -1,10 +1,10 @@
 ---
+scientificName: Aegires villosus
 family: Aegiridae
 genus: Aegires
-scientificName: Aegires villosus
-scientificNameAuthorship: Farran, 1905
 specificEpithet: villosus
 taxonRank: species
+scientificNameAuthorship: Farran, 1905
 identificationQualifier:
 colours:
   - white
@@ -13,5 +13,5 @@ colours:
 aphiaID: 531083
 eolID: 46450551
 wikipediaURL: https://www.wikipedia.org/wiki/Aegires_villosus
-commments:
+taxonRemarks:
 ---

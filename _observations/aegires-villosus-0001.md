@@ -1,18 +1,27 @@
 ---
-scientificName: Aegires villosus
-identificationQualifier:
-diveSiteName: Ammo Jetty
-observer: Matthias Liffers
-observerORCID: https://orcid.org/0000-0002-3639-2080
-comments:
-latitude: -32.124103
-longitude: 115.758569
-depth: 6
+# Record-level terms
+type: StillImage
+basisOfRecord: HumanObservation
+# Occurrence terms
+recordedBy: Matthias Liffers
+recordedByID: https://orcid.org/0000-0002-3639-2080
+occurrenceRemarks:
+# Event terms
+eventDate: 2015-01-02
+eventTime: 10:49
 year: 2015
 month: 1
 day: 2
-hour: 10
-minute: 49
-rating: 5
-date: 2015-01-02 10:49 +0800
+# Location terms
+locationRemarks: Ammo Jetty
+minimumDepthInMeters: 6
+maximumDepthInMeters: 6
+decimalLatitude: -32.124103
+decimalLatitude: 115.758569
+# Identification terms
+identifiedBy: Matthias Liffers
+identifiedByID: https://orcid.org/0000-0002-3639-2080
+# Taxon terms
+scientificName: Aegires villosus
+identificationQualifier:
 ---
