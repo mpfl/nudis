@@ -1,6 +1,6 @@
 ---
-genus: Ceratosoma
-species: brevicaudatum
+scientificName: Ceratosoma brevicaudatum
+identificationQualifier:
 diveSiteName: Busselton Jetty
 observer: Matthias Liffers
 observerORCID: https://orcid.org/0000-0002-3639-2080

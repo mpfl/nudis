@@ -1,4 +1,4 @@
-{% assign families = site.specificEpithet | map: "family" | compact | uniq | sort %}
+{% assign families = site.species | map: "family" | compact | uniq | sort %}
 
 <ul>
     {% for family in families | sort %}
@@ -6,7 +6,7 @@
             <ul>
                 {% assign family_species = site.specificEpithet | where: "family", family %}
                 {% for species in family_species  %}
-                    <li><a href="{{ site.baseurl }}{{ species.url }}">{{ species.genus }} {{ species.specificEpithet }}</a></li>
+                    <li><a href="{{ site.baseurl }}{{ species.url }}">{{ species.scientificName }} {{ species.identificationQualifier }}</a></li>
                 {% endfor %}
             </ul>
     {% endfor %}

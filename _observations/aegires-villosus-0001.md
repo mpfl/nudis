@@ -1,6 +1,6 @@
 ---
-genus: Aegires
-species: villosus
+scientificName: Aegires villosus
+identificationQualifier:
 diveSiteName: Ammo Jetty
 observer: Matthias Liffers
 observerORCID: https://orcid.org/0000-0002-3639-2080

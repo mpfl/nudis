@@ -2,14 +2,14 @@
 layout: default
 ---
 
-<h1>{{ page.scientificName }} {{ page.identificationQualifier}} {{ species.scientificNameAuthorship }}</h1>
+<h1>{{ page.scientificName }} {{ page.identificationQualifier}} {{ page.scientificNameAuthorship }}</h1>
 
 <p>Family: {{ page.family }}</p>
 
 <h2>Observations</h2>
 
     {% for observation in site.observations %}
-        {% if observation.genus == page.genus and observation.species == page.species %}
+        {% if observation.scientificName == page.scientificName and observation.identificationQualifier == page.identificationQualifier %}
                 <p>
                     <a href="{{ site.baseurl }}{{ observation.url }}"><img class="img-thumbnail" src="{{ site.baseurl }}/assets/images/thumbs/{{ observation.path | split: '/' | last | split: '.' | first }}.jpg" /></a><br />
                     {{ observation.date | date: "%Y-%m-%d %H:%M" }} by <a href="{{ observation.observerORCID }}">{{ observation.observer }}</a> at <a href="http://www.openstreetmap.org/?mlat={{ observation.latitude }}&mlon={{ observation.longitude }}&zoom=12&layers=M">{{ observation.diveSiteName }}</a>
