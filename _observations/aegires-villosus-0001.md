@@ -7,8 +7,7 @@ recordedBy: Matthias Liffers
 recordedByID: https://orcid.org/0000-0002-3639-2080
 occurrenceRemarks:
 # Event terms
-eventDate: 2015-01-02
-eventTime: 10:49
+eventDateTime: 2015-01-02 10:49
 year: 2015
 month: 1
 day: 2

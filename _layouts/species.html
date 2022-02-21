@@ -12,7 +12,7 @@ layout: default
         {% if observation.scientificName == page.scientificName and observation.identificationQualifier == page.identificationQualifier %}
                 <p>
                     <a href="{{ site.baseurl }}{{ observation.url }}"><img class="img-thumbnail" src="{{ site.baseurl }}/assets/images/thumbs/{{ observation.path | split: '/' | last | split: '.' | first }}.jpg" /></a><br />
-                    {{ observation.eventDate }} {{ observation.eventTime }} by <a href="{{ observation.recordedByID }}">{{ observation.recordedBy }}</a> at <a href="http://www.openstreetmap.org/?mlat={{ observation.decimalLatitude }}&mlon={{ observation.decimalLongitude }}&zoom=12&layers=M">{{ observation.locationRemarks }}</a>
+                    {{ observation.eventDateTime }} by <a href="{{ observation.recordedByID }}">{{ observation.recordedBy }}</a> at <a href="http://www.openstreetmap.org/?mlat={{ observation.decimalLatitude }}&mlon={{ observation.decimalLongitude }}&zoom=12&layers=M">{{ observation.locationRemarks }}</a>
                 </p>
         {% endif %}
     {% endfor %}

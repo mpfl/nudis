@@ -7,8 +7,7 @@ recordedBy: Matthias Liffers
 recordedByID: https://orcid.org/0000-0002-3639-2080
 occurrenceRemarks:
 # Event terms
-eventDate: 2015-03-22
-eventTime: 9:39
+eventDateTime: 2015-03-22 9:39
 year: 2015
 month: 3
 day: 22

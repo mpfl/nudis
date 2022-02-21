@@ -7,8 +7,7 @@ recordedBy: Matthias Liffers
 recordedByID: https://orcid.org/0000-0002-3639-2080
 occurrenceRemarks:
 # Event terms
-eventDate: 2022-02-05
-eventTime: 9:55
+eventDateTime: 2022-02-05 9:55
 year: 2022
 month: 2
 day: 5
