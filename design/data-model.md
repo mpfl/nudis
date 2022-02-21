@@ -25,8 +25,7 @@ erDiagram
         string recordedBy
         string recordedByID
         string occurrenceRemarks
-        date eventDate
-        time eventTime
+        datetime eventDateTime
         int year
         int month
         int day
