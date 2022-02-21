@@ -4,7 +4,7 @@
     {% for family in families | sort %}
         <li>{{ family }}</li>
             <ul>
-                {% assign family_species = site.specificEpithet | where: "family", family %}
+                {% assign family_species = site.species | where: "family", family %}
                 {% for species in family_species  %}
                     <li><a href="{{ site.baseurl }}{{ species.url }}">{{ species.scientificName }} {{ species.identificationQualifier }}</a></li>
                 {% endfor %}
