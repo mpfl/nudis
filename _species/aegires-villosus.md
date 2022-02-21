@@ -1,7 +1,7 @@
 ---
 family: Aegiridae
 genus: Aegires
-scientificName: Aegires villosus 
+scientificName: Aegires villosus
 scientificNameAuthorship: Farran, 1905
 specificEpithet: villosus
 taxonRank: species
