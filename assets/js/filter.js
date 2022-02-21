@@ -11,21 +11,24 @@ function init() {
 function showAllThumbs() {
     thumbsToShow = document.getElementsByClassName("thumb");
     for ( i = 0; i < thumbsToShow.length; i++) {
-        thumbsToShow[i].style.display = "inline";
+        thumbsToShow[i].classList.remove('d-none');
+        thumbsToShow[i].classList.add('d-block');
     }
 }
 
 function hideAllThumbs() {
     var allThumbs = document.getElementsByClassName("thumb");
     for ( i = 0; i < allThumbs.length; i++) {
-        allThumbs[i].style.display = "none";
+        thumbsToShow[i].classList.remove('d-block');
+        thumbsToShow[i].classList.add('d-none');
     }
 }
 
 function showTheseThumbs(classes) {
     var thumbsToShow = document.getElementsByClassName(classes);
     for ( i = 0; i < thumbsToShow.length; i++) {
-        thumbsToShow[i].style.display = "inline";
+        thumbsToShow[i].classList.remove('d-none');
+        thumbsToShow[i].classList.add('d-block');
     }
 }
 
