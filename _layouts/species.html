@@ -2,11 +2,9 @@
 layout: default
 ---
 
-<h1>{{ page.genus }} {{ page.species}} </h1>
+<h1>{{ page.scientificName }} {{ page.identificationQualifier}} {{ species.scientificNameAuthorship }}</h1>
 
-<p>{{ page.description }}</p>
-
-<p>Family {{ page.family }}</p>
+<p>Family: {{ page.family }}</p>
 
 <h2>Observations</h2>
 
@@ -14,7 +12,7 @@ layout: default
         {% if observation.genus == page.genus and observation.species == page.species %}
                 <p>
                     <a href="{{ site.baseurl }}{{ observation.url }}"><img class="img-thumbnail" src="{{ site.baseurl }}/assets/images/thumbs/{{ observation.path | split: '/' | last | split: '.' | first }}.jpg" /></a><br />
-                    {{ observation.date | date: "%Y-%m-%d %H:%M" }} by <a href="{{ observation.observerORCID}}">{{ observation.observer }}</a> at <a href="http://www.openstreetmap.org/?mlat={{ observation.latitude }}&mlon={{ observation.longitude }}&zoom=12&layers=M">{{ observation.diveSiteName }}</a>
+                    {{ observation.date | date: "%Y-%m-%d %H:%M" }} by <a href="{{ observation.observerORCID }}">{{ observation.observer }}</a> at <a href="http://www.openstreetmap.org/?mlat={{ observation.latitude }}&mlon={{ observation.longitude }}&zoom=12&layers=M">{{ observation.diveSiteName }}</a>
                 </p>
         {% endif %}
     {% endfor %}

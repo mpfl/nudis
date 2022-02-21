@@ -1,8 +1,11 @@
 ---
 family: Chromodorididae
 genus: Ceratosoma
-species: amoenum
-description: (Cheeseman, 1886)
+scientificName: Ceratosoma amoenum
+scientificNameAuthorship: (Cheeseman, 1886)
+specificEpithet: amoenum
+taxonRank: species
+identificationQualifier:
 colours:
   - white
   - purple

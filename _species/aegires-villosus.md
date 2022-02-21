@@ -1,8 +1,11 @@
 ---
 family: Aegiridae
 genus: Aegires
-species: villosus
-description: Farran, 1905
+scientificName: Aegires villosus 
+scientificNameAuthorship: Farran, 1905
+specificEpithet: villosus
+taxonRank: species
+identificationQualifier:
 colours:
   - white
   - pink
