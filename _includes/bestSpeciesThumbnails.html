@@ -1,4 +1,4 @@
-<div markdown="0" class="row" data-masonry='{"percentPosition": true }'>
+<div markdown="0" class="row row-cols-auto" data-masonry='{"percentPosition": true }'>
     {% for species in site.species %}
         {% assign speciesBestObservation = site.observations | where: "scientificName", species.scientificName | where: "identificationQualifier", species.identificationQualifier | sort: "rating" | last %}
         <div class="col">
