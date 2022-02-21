@@ -19,8 +19,8 @@ function showAllThumbs() {
 function hideAllThumbs() {
     var allThumbs = document.getElementsByClassName("thumb");
     for ( i = 0; i < allThumbs.length; i++) {
-        thumbsToShow[i].classList.remove("d-block");
-        thumbsToShow[i].classList.add("d-none");
+        allThumbs[i].classList.remove("d-block");
+        allThumbs[i].classList.add("d-none");
     }
 }
 
