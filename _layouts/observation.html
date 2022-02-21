@@ -4,4 +4,4 @@ layout: default
 
 <h1>{{ page.scientificName }} {{ page.identificationQualifier}}</h1>
 
-<img src="{{ site.baseurl }}/assets/images/full/{{ page.path | split: '/' | last | split: '.' | first }}.jpg" /><br />
+<img class="img-fluid" alt="{{ page.scientificName }} {{ page.identificationQualifier}}" src="{{ site.baseurl }}/assets/images/full/{{ page.path | split: '/' | last | split: '.' | first }}.jpg" /><br />
