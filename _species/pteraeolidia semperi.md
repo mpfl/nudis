@@ -7,6 +7,10 @@ taxonRank: species
 scientificNameAuthorship: (Bergh, 1870)
 identificationQualifier: 
 colours:
+    - blue
+    - green
+    - purple
+    - white
 aphiaID: 764917
 eolID: 46450990
 wikipediaURL: "https://en.wikipedia.org/wiki/Pteraeolidia"

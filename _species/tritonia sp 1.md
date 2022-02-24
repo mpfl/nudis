@@ -7,6 +7,8 @@ taxonRank: genus
 scientificNameAuthorship: Cuvier, 1798
 identificationQualifier: sp. 1
 colours:
+    - white
+    - orange
 aphiaID: 138580
 eolID: 46450726
 wikipediaURL: "https://en.wikipedia.org/wiki/Tritonia"

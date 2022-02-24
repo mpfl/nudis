@@ -7,6 +7,9 @@ taxonRank: species
 scientificNameAuthorship: (Crosse, 1872)
 identificationQualifier: 
 colours:
+    - orange
+    - purple
+    - white
 aphiaID: 558352
 eolID: 46449646
 wikipediaURL: "https://en.wikipedia.org/wiki/Mexichromis_mariei"

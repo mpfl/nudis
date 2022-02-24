@@ -7,6 +7,10 @@ taxonRank: genus
 scientificNameAuthorship: Risso, 1818
 identificationQualifier: sp. 3
 colours:
+    - black
+    - green
+    - purple
+    - white
 aphiaID: 137928
 eolID: 46448709
 wikipediaURL: "https://en.wikipedia.org/wiki/Elysia"

@@ -7,6 +7,10 @@ taxonRank: genus
 scientificNameAuthorship: Rafinesque, 1814
 identificationQualifier: sp. 1
 colours:
+    - black
+    - pink
+    - white
+    - yellow
 aphiaID: 137677
 eolID: 46450582
 wikipediaURL: "https://en.wikipedia.org/wiki/Armina"

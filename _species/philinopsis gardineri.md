@@ -7,6 +7,8 @@ taxonRank: species
 scientificNameAuthorship: (Eliot, 1903)
 identificationQualifier: 
 colours:
+    - black
+    - blue
 aphiaID: 599444
 eolID: 46447903
 wikipediaURL: "https://en.wikipedia.org/wiki/Philinopsis"

@@ -7,6 +7,9 @@ taxonRank: genus
 scientificNameAuthorship: Pease, 1866
 identificationQualifier: sp. 3
 colours:
+    - red
+    - white
+    - yellow
 aphiaID: 558453
 eolID: 46449731
 wikipediaURL: "https://en.wikipedia.org/wiki/Goniobranchus"

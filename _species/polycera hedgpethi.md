@@ -7,6 +7,9 @@ taxonRank: species
 scientificNameAuthorship: Er. Marcus, 1964
 identificationQualifier: 
 colours:
+    - black
+    - white
+    - yellow
 aphiaID: 140835
 eolID: 46450323
 wikipediaURL: "https://en.wikipedia.org/wiki/Polycera_hedgpethi"

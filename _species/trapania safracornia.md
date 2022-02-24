@@ -7,6 +7,10 @@ taxonRank: species
 scientificNameAuthorship: Fahey, 2004
 identificationQualifier: 
 colours:
+    - brown
+    - red
+    - white
+    - yellow
 aphiaID: 388695
 eolID: 46450017
 wikipediaURL: "https://en.wikipedia.org/wiki/Trapania_safracornia"

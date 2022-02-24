@@ -7,6 +7,8 @@ taxonRank: species
 scientificNameAuthorship: (Bergh, 1877)
 identificationQualifier: 
 colours:
+    - orange
+    - white
 aphiaID: 533866
 eolID: 46450492
 wikipediaURL: "https://en.wikipedia.org/wiki/Gymnodoris"

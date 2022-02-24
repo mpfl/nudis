@@ -7,6 +7,9 @@ taxonRank: genus
 scientificNameAuthorship: Cuvier, 1816
 identificationQualifier: sp. 1
 colours:
+    - brown
+    - white
+    - yellow
 aphiaID: 138369
 eolID: 46450333
 wikipediaURL: "https://en.wikipedia.org/wiki/Polycera"

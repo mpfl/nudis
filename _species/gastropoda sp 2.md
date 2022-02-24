@@ -7,6 +7,8 @@ taxonRank: class
 scientificNameAuthorship: Cuvier, 1795
 identificationQualifier: sp. 2
 colours:
+    - brown
+    - white
 aphiaID: 101
 eolID: 52227351
 wikipediaURL: "https://en.wikipedia.org/wiki/Gastropoda"

@@ -7,6 +7,7 @@ taxonRank: genus
 scientificNameAuthorship: Bergh, 1879
 identificationQualifier: sp. 1
 colours:
+    - grey
 aphiaID: 138461
 eolID: 46449269
 wikipediaURL: "https://en.wikipedia.org/wiki/Rostanga"

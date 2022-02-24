@@ -7,6 +7,8 @@ taxonRank: species
 scientificNameAuthorship: (Risbec, 1928)
 identificationQualifier: 
 colours:
+    - pink
+    - white
 aphiaID: 534073
 eolID: 46450974
 wikipediaURL: "https://en.wikipedia.org/wiki/Phyllodesmium_poindimiei"

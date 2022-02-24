@@ -7,6 +7,8 @@ taxonRank: species
 scientificNameAuthorship: (Basedow & Hedley, 1905)
 identificationQualifier: 
 colours:
+    - pink
+    - yellow
 aphiaID: 533942
 eolID: 46449673
 wikipediaURL: "https://en.wikipedia.org/wiki/Verconia_verconis"

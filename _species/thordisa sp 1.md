@@ -7,6 +7,9 @@ taxonRank: genus
 scientificNameAuthorship: Bergh, 1877
 identificationQualifier: sp. 1
 colours:
+    - black
+    - white
+    - orange
 aphiaID: 137900
 eolID: 46449175
 wikipediaURL: "https://en.wikipedia.org/wiki/Thordisa"

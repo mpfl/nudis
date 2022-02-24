@@ -7,6 +7,9 @@ taxonRank: genus
 scientificNameAuthorship: Linnaeus, 1767
 identificationQualifier: sp. 1
 colours:
+    - blue
+    - brown
+    - white
 aphiaID: 137654
 eolID: 46448985
 wikipediaURL: "https://en.wikipedia.org/wiki/Aplysia"

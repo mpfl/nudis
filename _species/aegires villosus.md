@@ -7,6 +7,9 @@ taxonRank: species
 scientificNameAuthorship: Farran, 1905
 identificationQualifier: 
 colours:
+    - orange
+    - pink
+    - white
 aphiaID: 531083
 eolID: 46450551
 wikipediaURL: "https://en.wikipedia.org/wiki/Aegires_villosus"

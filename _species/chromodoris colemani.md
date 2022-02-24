@@ -7,6 +7,10 @@ taxonRank: species
 scientificNameAuthorship: Rudman, 1982
 identificationQualifier: 
 colours:
+    - black
+    - blue
+    - orange
+    - white
 aphiaID: 558301
 eolID: 46449505
 wikipediaURL: "https://en.wikipedia.org/wiki/Chromodoris_colemani"

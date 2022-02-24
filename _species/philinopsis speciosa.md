@@ -7,6 +7,10 @@ taxonRank: species
 scientificNameAuthorship: Pease, 1860
 identificationQualifier: 
 colours:
+    - blue
+    - purple
+    - white
+    - yellow
 aphiaID: 559039
 eolID: 46447898
 wikipediaURL: "https://en.wikipedia.org/wiki/Philinopsis_speciosa"

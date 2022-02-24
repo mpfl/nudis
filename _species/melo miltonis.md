@@ -7,6 +7,9 @@ taxonRank: species
 scientificNameAuthorship: (Gray in Griffith & Pidgeon, 1833)
 identificationQualifier: 
 colours:
+    - brown
+    - orange
+    - white
 aphiaID: 385412
 eolID: 4845520
 wikipediaURL: "https://en.wikipedia.org/wiki/Melo_miltonis"

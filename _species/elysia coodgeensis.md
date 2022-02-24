@@ -7,6 +7,9 @@ taxonRank: species
 scientificNameAuthorship: Angas, 1864
 identificationQualifier: 
 colours:
+    - green
+    - purple
+    - white
 aphiaID: 494438
 eolID: 46448731
 wikipediaURL: "https://en.wikipedia.org/wiki/Elysia"

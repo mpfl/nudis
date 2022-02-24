@@ -7,6 +7,8 @@ taxonRank: species
 scientificNameAuthorship: Rudman, 1983
 identificationQualifier: 
 colours:
+    - orange
+    - purple
 aphiaID: 533928
 eolID: 46449645
 wikipediaURL: "https://en.wikipedia.org/wiki/Mexichromis_macropus"

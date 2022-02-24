@@ -7,6 +7,9 @@ taxonRank: species
 scientificNameAuthorship: (Cheeseman, 1886)
 identificationQualifier: 
 colours:
+    - orange
+    - purple
+    - white
 aphiaID: 533898
 eolID: 46449625
 wikipediaURL: "https://en.wikipedia.org/wiki/Ceratosoma_amoenum"

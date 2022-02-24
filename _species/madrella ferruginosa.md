@@ -7,6 +7,9 @@ taxonRank: species
 scientificNameAuthorship: Alder & Hancock, 1864
 identificationQualifier: 
 colours:
+    - black
+    - orange
+    - red
 aphiaID: 597097
 eolID: 52305353
 wikipediaURL: "https://en.wikipedia.org/wiki/Madrellidae"

@@ -7,6 +7,9 @@ taxonRank: genus
 scientificNameAuthorship: Trinchese, 1876
 identificationQualifier: sp. 1
 colours:
+    - brown
+    - green
+    - white
 aphiaID: 138524
 eolID: 45516218
 wikipediaURL: "https://en.wikipedia.org/wiki/Placida"

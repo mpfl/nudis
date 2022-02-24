@@ -7,6 +7,10 @@ taxonRank: species
 scientificNameAuthorship: (Rudman, 1982)
 identificationQualifier: 
 colours:
+    - blue
+    - green
+    - orange
+    - white
 aphiaID: 534041
 eolID: 46451081
 wikipediaURL: "https://en.wikipedia.org/wiki/Baeolidia_australis"

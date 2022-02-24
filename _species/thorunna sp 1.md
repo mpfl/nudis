@@ -7,6 +7,10 @@ taxonRank: genus
 scientificNameAuthorship: Bergh, 1878
 identificationQualifier: sp. 1
 colours:
+    - white
+    - purple
+    - red
+    - yellow
 aphiaID: 456530
 eolID: 46449656
 wikipediaURL: "https://en.wikipedia.org/wiki/Thorunna"

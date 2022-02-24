@@ -7,6 +7,8 @@ taxonRank: genus
 scientificNameAuthorship: McMurtrie, 1831
 identificationQualifier: sp. 1
 colours:
+    - orange
+    - purple
 aphiaID: 138019
 eolID: 46451192
 wikipediaURL: "https://en.wikipedia.org/wiki/Flabellina"

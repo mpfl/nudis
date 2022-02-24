@@ -7,6 +7,10 @@ taxonRank: species
 scientificNameAuthorship: (Collingwood, 1881)
 identificationQualifier: 
 colours:
+    - brown
+    - purple
+    - white
+    - yellow
 aphiaID: 597350
 eolID: 46449741
 wikipediaURL: "https://en.wikipedia.org/wiki/Goniobranchus_aureopurpureus"

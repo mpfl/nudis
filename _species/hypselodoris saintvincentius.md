@@ -7,6 +7,10 @@ taxonRank: species
 scientificNameAuthorship: Burn, 1962
 identificationQualifier: 
 colours:
+    - black
+    - blue
+    - red
+    - white
 aphiaID: 561978
 eolID: 46449616
 wikipediaURL: "https://en.wikipedia.org/wiki/Hypselodoris_saintvincentius"

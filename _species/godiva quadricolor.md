@@ -7,6 +7,11 @@ taxonRank: species
 scientificNameAuthorship: (Barnard, 1927)
 identificationQualifier: 
 colours:
+    - blue
+    - orange
+    - pink
+    - white
+    - yellow
 aphiaID: 225518
 eolID: 46450873
 wikipediaURL: "https://en.wikipedia.org/wiki/Godiva_quadricolor"

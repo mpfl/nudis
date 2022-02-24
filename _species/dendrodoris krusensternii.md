@@ -7,6 +7,9 @@ taxonRank: species
 scientificNameAuthorship: (Gray, 1850)
 identificationQualifier: 
 colours:
+    - blue
+    - grey
+    - white
 aphiaID: 550448
 eolID: 46450194
 wikipediaURL: "https://en.wikipedia.org/wiki/Dendrodoris"

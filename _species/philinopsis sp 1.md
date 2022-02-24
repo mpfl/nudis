@@ -7,6 +7,10 @@ taxonRank: genus
 scientificNameAuthorship: Pease, 1860
 identificationQualifier: sp. 1
 colours:
+    - black
+    - blue
+    - white
+    - yellow
 aphiaID: 137640
 eolID: 46447887
 wikipediaURL: "https://en.wikipedia.org/wiki/Philinopsis"

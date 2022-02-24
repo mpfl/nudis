@@ -7,6 +7,9 @@ taxonRank: genus
 scientificNameAuthorship: van Hasselt, 1824
 identificationQualifier: sp. 1
 colours:
+    - black
+    - brown
+    - white
 aphiaID: 531811
 eolID: 46450636
 wikipediaURL: "https://en.wikipedia.org/wiki/Dermatobranchus"

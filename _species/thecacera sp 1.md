@@ -7,6 +7,9 @@ taxonRank: genus
 scientificNameAuthorship: J. Fleming, 1828
 identificationQualifier: sp. 1
 colours:
+    - black
+    - white
+    - yellow
 aphiaID: 138371
 eolID: 46450355
 wikipediaURL: "https://en.wikipedia.org/wiki/Thecacera"

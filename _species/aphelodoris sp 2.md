@@ -7,6 +7,8 @@ taxonRank: genus
 scientificNameAuthorship: Bergh, 1879
 identificationQualifier: sp. 2
 colours:
+    - brown
+    - orange
 aphiaID: 415066
 eolID: 46449454
 wikipediaURL: "https://en.wikipedia.org/wiki/Aphelodoris"

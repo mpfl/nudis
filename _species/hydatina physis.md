@@ -7,6 +7,9 @@ taxonRank: species
 scientificNameAuthorship: (Linnaeus, 1758)
 identificationQualifier: 
 colours:
+    - brown
+    - pink
+    - white
 aphiaID: 215423
 eolID: 49316218
 wikipediaURL: "https://en.wikipedia.org/wiki/Hydatina_physis"

@@ -7,6 +7,7 @@ taxonRank: genus
 scientificNameAuthorship: Bergh, 1880
 identificationQualifier: sp. 1
 colours:
+    - orange
 aphiaID: 137884
 eolID: 46450203
 wikipediaURL: "https://en.wikipedia.org/wiki/Doriopsilla"

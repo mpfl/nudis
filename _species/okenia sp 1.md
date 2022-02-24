@@ -7,6 +7,8 @@ taxonRank: genus
 scientificNameAuthorship: Menke, 1830
 identificationQualifier: sp. 1
 colours:
+    - brown
+    - white
 aphiaID: 138042
 eolID: 47132382
 wikipediaURL: "https://en.wikipedia.org/wiki/Okenia"

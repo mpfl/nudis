@@ -7,6 +7,9 @@ taxonRank: species
 scientificNameAuthorship: (Swainson, 1840)
 identificationQualifier: 
 colours:
+    - black
+    - green
+    - yellow
 aphiaID: 139682
 eolID: 46448704
 wikipediaURL: "https://en.wikipedia.org/wiki/Elysia_ornata"

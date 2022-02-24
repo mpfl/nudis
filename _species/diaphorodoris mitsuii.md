@@ -7,6 +7,8 @@ taxonRank: species
 scientificNameAuthorship: (Baba, 1938)
 identificationQualifier: 
 colours:
+    - white
+    - yellow
 aphiaID: 597117
 eolID: 46450152
 wikipediaURL: "https://en.wikipedia.org/wiki/Diaphorodoris_mitsuii"

@@ -7,6 +7,10 @@ taxonRank: genus
 scientificNameAuthorship: Stimpson, 1855
 identificationQualifier: sp. 1
 colours:
+    - orange
+    - purple
+    - red
+    - white
 aphiaID: 137784
 eolID: 46449818
 wikipediaURL: "https://en.wikipedia.org/wiki/Hypselodoris"

@@ -7,6 +7,8 @@ taxonRank: species
 scientificNameAuthorship: (Bergh, 1890)
 identificationQualifier: 
 colours:
+    - brown
+    - white
 aphiaID: 559960
 eolID: 46449549
 wikipediaURL: "https://en.wikipedia.org/wiki/Glossodoris_rufomarginata"

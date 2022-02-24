@@ -7,6 +7,8 @@ taxonRank: species
 scientificNameAuthorship: (Kelaart, 1858)
 identificationQualifier: 
 colours:
+    - brown
+    - white
 aphiaID: 404968
 eolID: 46450466
 wikipediaURL: "https://en.wikipedia.org/wiki/Plocamopherus_ceylonicus"

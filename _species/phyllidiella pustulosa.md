@@ -7,6 +7,8 @@ taxonRank: species
 scientificNameAuthorship: (Cuvier, 1804)
 identificationQualifier: 
 colours:
+    - black
+    - white
 aphiaID: 536574
 eolID: 46450296
 wikipediaURL: "https://en.wikipedia.org/wiki/Phyllidiella_pustulosa"

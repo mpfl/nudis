@@ -7,6 +7,9 @@ taxonRank: species
 scientificNameAuthorship: (O'Donoghue, 1924)
 identificationQualifier: 
 colours:
+    - black
+    - blue
+    - orange
 aphiaID: 558297
 eolID: 46449503
 wikipediaURL: "https://en.wikipedia.org/wiki/Chromodoris_westraliensis"

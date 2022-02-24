@@ -7,6 +7,9 @@ taxonRank: species
 scientificNameAuthorship: (G. B. Sowerby I, 1828)
 identificationQualifier: 
 colours:
+    - red
+    - white
+    - yellow
 aphiaID: 430603
 eolID: 4865491
 wikipediaURL: "https://en.wikipedia.org/wiki/Margovula_marginata"

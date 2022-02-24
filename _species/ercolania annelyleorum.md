@@ -7,6 +7,8 @@ taxonRank: species
 scientificNameAuthorship: Wägele, Stemmer, Burghardt & Händeler, 2010
 identificationQualifier: 
 colours:
+    - green
+    - white
 aphiaID: 545395
 eolID: 46448915
 wikipediaURL: "https://en.wikipedia.org/wiki/Ercolania"

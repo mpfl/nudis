@@ -7,6 +7,9 @@ taxonRank: order
 scientificNameAuthorship: Cuvier, 1817
 identificationQualifier: sp. 2
 colours:
+    - brown
+    - orange
+    - white
 aphiaID: 1762
 eolID: 46449083
 wikipediaURL: "https://en.wikipedia.org/wiki/Nudibranch"

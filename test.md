@@ -18,6 +18,10 @@ permalink: /test
 
 {% include speciesList.html %}
 
+## All colours
+
+{% includes speciesColours.html %}
+
 ## Species by family
 
 {% include speciesByFamilyList.html %}

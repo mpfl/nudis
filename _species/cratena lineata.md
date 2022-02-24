@@ -7,6 +7,9 @@ taxonRank: species
 scientificNameAuthorship: (Eliot, 1905)
 identificationQualifier: 
 colours:
+    - brown
+    - orange
+    - white
 aphiaID: 534062
 eolID: 46450954
 wikipediaURL: "https://en.wikipedia.org/wiki/Cratena_lineata"

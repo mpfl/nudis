@@ -7,6 +7,9 @@ taxonRank: species
 scientificNameAuthorship: Abraham, 1876
 identificationQualifier: 
 colours:
+    - orange
+    - purple
+    - white
 aphiaID: 533901
 eolID: 46449626
 wikipediaURL: "https://en.wikipedia.org/wiki/Ceratosoma_brevicaudatum"

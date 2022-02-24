@@ -7,6 +7,11 @@ taxonRank: species
 scientificNameAuthorship: (Lamarck, 1804)
 identificationQualifier: 
 colours:
+    - black
+    - brown
+    - grey
+    - white
+    - yellow
 aphiaID: 714714
 eolID: 4845255
 wikipediaURL: "https://en.wikipedia.org/wiki/Cymbiola_nivosa"

@@ -7,6 +7,8 @@ taxonRank: species
 scientificNameAuthorship: (Collingwood, 1881)
 identificationQualifier: 
 colours:
+    - black
+    - orange
 aphiaID: 533877
 eolID: 46450174
 wikipediaURL: "https://en.wikipedia.org/wiki/Dendrodoris"

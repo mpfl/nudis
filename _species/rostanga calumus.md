@@ -7,6 +7,7 @@ taxonRank: species
 scientificNameAuthorship: Rudman & Avern, 1989
 identificationQualifier: 
 colours:
+    - orange
 aphiaID: 533990
 eolID: 46449282
 wikipediaURL: "https://en.wikipedia.org/wiki/Rostanga_calumus"

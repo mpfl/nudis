@@ -7,6 +7,9 @@ taxonRank: genus
 scientificNameAuthorship: Ehrenberg, 1831
 identificationQualifier: sp. 1
 colours:
+    - black
+    - grey
+    - white
 aphiaID: 137883
 eolID: 4884043
 wikipediaURL: "https://en.wikipedia.org/wiki/Dendrodoris"
