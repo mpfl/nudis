@@ -22,10 +22,6 @@ permalink: /test
 
 {% include speciesByFamilyList.html %}
 
-## All colours
-
-{% include speciesColours.html %}
-
 ## Best observation of each species
 
 {% include bestSpeciesThumbnails.html %}
