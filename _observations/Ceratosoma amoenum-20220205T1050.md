@@ -5,7 +5,7 @@ basisOfRecord: HumanObservation
 # Occurrence terms
 recordedBy: Matthias Liffers
 recordedByID: https://orcid.org/0000-0002-3639-2080
-occurrenceRemarks: OLYMPUS DIGITAL CAMERA
+occurrenceRemarks: "OLYMPUS DIGITAL CAMERA"
 # Event terms
 eventDateTime: 2022-02-05T10:50:25
 year: 2022

@@ -5,7 +5,7 @@ basisOfRecord: HumanObservation
 # Occurrence terms
 recordedBy: Matthias Liffers
 recordedByID: https://orcid.org/0000-0002-3639-2080
-occurrenceRemarks: 
+occurrenceRemarks: " "
 # Event terms
 eventDateTime: 2014-10-19T09:11:48
 year: 2014
