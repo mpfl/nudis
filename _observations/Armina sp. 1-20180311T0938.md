@@ -1,0 +1,28 @@
+---
+# Record-level terms
+type: StillImage
+basisOfRecord: HumanObservation
+# Occurrence terms
+recordedBy: Matthias Liffers
+recordedByID: https://orcid.org/0000-0002-3639-2080
+occurrenceRemarks: 
+# Event terms
+eventDateTime: 2018-03-11T09:38:22
+year: 2018
+month: 3
+day: 11
+# Location terms
+locationRemarks: Grain Terminal,  Kwinana /  Australia
+minimumDepthInMeters: 3.45
+maximumDepthInMeters: 3.22
+decimalLatitude: -32.256193
+decimalLatitude: 115.748000
+temperature: 23
+# Identification terms
+identifiedBy: 
+identifiedByID: 
+# Taxon terms
+scientificName: Armina
+identificationQualifier: sp. 1
+taxonRank: genus
+---

@@ -1,0 +1,28 @@
+---
+# Record-level terms
+type: StillImage
+basisOfRecord: HumanObservation
+# Occurrence terms
+recordedBy: Matthias Liffers
+recordedByID: https://orcid.org/0000-0002-3639-2080
+occurrenceRemarks: 
+# Event terms
+eventDateTime: 2016-03-24T19:34:59
+year: 2016
+month: 3
+day: 24
+# Location terms
+locationRemarks: Bicton Baths, Bicton / Australia
+minimumDepthInMeters: 3.73
+maximumDepthInMeters: 3.58
+decimalLatitude: -32.027626
+decimalLatitude: 115.777550
+temperature: 23
+# Identification terms
+identifiedBy: 
+identifiedByID: 
+# Taxon terms
+scientificName: Placida
+identificationQualifier: sp.
+taxonRank: genus
+---

@@ -1,0 +1,28 @@
+---
+# Record-level terms
+type: StillImage
+basisOfRecord: HumanObservation
+# Occurrence terms
+recordedBy: Matthias Liffers
+recordedByID: https://orcid.org/0000-0002-3639-2080
+occurrenceRemarks: 
+# Event terms
+eventDateTime: 2015-12-02T19:43:24
+year: 2015
+month: 12
+day: 2
+# Location terms
+locationRemarks: Bicton Baths,  Bicton /  Australia
+minimumDepthInMeters: 6.27
+maximumDepthInMeters: 6.17
+decimalLatitude: -32.028239
+decimalLatitude: 115.776945
+temperature: 23
+# Identification terms
+identifiedBy: 
+identifiedByID: 
+# Taxon terms
+scientificName: Gastropoda
+identificationQualifier: sp. 1
+taxonRank: genus
+---

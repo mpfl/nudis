@@ -1,0 +1,28 @@
+---
+# Record-level terms
+type: StillImage
+basisOfRecord: HumanObservation
+# Occurrence terms
+recordedBy: Matthias Liffers
+recordedByID: https://orcid.org/0000-0002-3639-2080
+occurrenceRemarks: 
+# Event terms
+eventDateTime: 2018-04-02T10:04:25
+year: 2018
+month: 4
+day: 2
+# Location terms
+locationRemarks: Ammunition Jetty,  Woodman Point /  Australia
+minimumDepthInMeters: 5.21
+maximumDepthInMeters: 4.64
+decimalLatitude: -32.123948
+decimalLatitude: 115.758068
+temperature: 21
+# Identification terms
+identifiedBy: 
+identifiedByID: 
+# Taxon terms
+scientificName: Rostanga
+identificationQualifier: sp. 1
+taxonRank: genus
+---

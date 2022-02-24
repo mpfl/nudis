@@ -1,0 +1,28 @@
+---
+# Record-level terms
+type: StillImage
+basisOfRecord: HumanObservation
+# Occurrence terms
+recordedBy: Matthias Liffers
+recordedByID: https://orcid.org/0000-0002-3639-2080
+occurrenceRemarks: OLYMPUS DIGITAL CAMERA
+# Event terms
+eventDateTime: 2021-04-06T09:28:19
+year: 2021
+month: 4
+day: 6
+# Location terms
+locationRemarks: Robb's Jetty /  Australia
+minimumDepthInMeters: 6.6
+maximumDepthInMeters: 6.6
+decimalLatitude: -32.089388
+decimalLatitude: 115.754000
+temperature: 23
+# Identification terms
+identifiedBy: 
+identifiedByID: 
+# Taxon terms
+scientificName: Elysia
+identificationQualifier: sp. 3
+taxonRank: genus
+---
