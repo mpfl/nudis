@@ -1,8 +1,8 @@
 # Site settings
 title: Nudibranchs of southwest Australia
 description: "An incomplete field guide to nudibranchs and allied clades of southwest Australia."
-url: "https://mpfl.github.io/nudis/"
-baseurl: "/nudis"
+url: "https://nudi.app/"
+baseurl: ""
 author:
   name: "Matthias Liffers"
   email: "m@tthi.as"
