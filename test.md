@@ -20,7 +20,7 @@ permalink: /test
 
 ## All colours
 
-{% includes speciesColours.html %}
+{% include speciesColours.html %}
 
 ## Species by family
 
