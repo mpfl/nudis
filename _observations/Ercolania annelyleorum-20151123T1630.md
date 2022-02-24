@@ -17,7 +17,7 @@ minimumDepthInMeters: 5.72
 maximumDepthInMeters: 5.76
 decimalLatitude: -32.028239
 decimalLatitude: 115.776945
-temperature: 24
+temperature: 23
 # Identification terms
 identifiedBy: 
 identifiedByID: 
