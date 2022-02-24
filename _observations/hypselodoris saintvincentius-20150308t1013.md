@@ -5,24 +5,24 @@ basisOfRecord: HumanObservation
 # Occurrence terms
 recordedBy: Matthias Liffers
 recordedByID: https://orcid.org/0000-0002-3639-2080
-occurrenceRemarks: " "
+occurrenceRemarks: ""
 # Event terms
-eventDateTime: 2015-03-02T08:45:36
+eventDateTime: 2015-03-08T10:13:19
 year: 2015
 month: 3
-day: 2
+day: 8
 # Location terms
-locationRemarks: Grain Terminal,  Kwinana /  Australia
-minimumDepthInMeters: 1.18
-maximumDepthInMeters: 1.78
-decimalLatitude: -32.256193
-decimalLatitude: 115.748000
-temperature: 25
+locationRemarks: Sue's Groyne /  Australia
+minimumDepthInMeters: 4.3
+maximumDepthInMeters: 4.72
+decimalLatitude: -32.096888
+decimalLatitude: 115.757000
+temperature: 21
 # Identification terms
 identifiedBy: 
 identifiedByID: 
 # Taxon terms
-scientificName: Hypselodoris saintvincentia
+scientificName: Hypselodoris saintvincentius
 identificationQualifier: 
 taxonRank: genus
 ---

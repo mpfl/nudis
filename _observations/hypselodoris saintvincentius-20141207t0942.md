@@ -5,24 +5,24 @@ basisOfRecord: HumanObservation
 # Occurrence terms
 recordedBy: Matthias Liffers
 recordedByID: https://orcid.org/0000-0002-3639-2080
-occurrenceRemarks: " "
+occurrenceRemarks: ""
 # Event terms
-eventDateTime: 2015-06-07T09:02:07
-year: 2015
-month: 6
+eventDateTime: 2014-12-07T09:42:09
+year: 2014
+month: 12
 day: 7
 # Location terms
-locationRemarks: Grain Terminal,  Kwinana /  Australia
-minimumDepthInMeters: 3.84
-maximumDepthInMeters: 3.92
-decimalLatitude: -32.256193
-decimalLatitude: 115.748000
-temperature: 21
+locationRemarks: Robb's Jetty /  Australia
+minimumDepthInMeters: 5.08
+maximumDepthInMeters: 5.34
+decimalLatitude: -32.089388
+decimalLatitude: 115.754000
+temperature: 18
 # Identification terms
 identifiedBy: 
 identifiedByID: 
 # Taxon terms
-scientificName: Hypselodoris saintvincentia
+scientificName: Hypselodoris saintvincentius
 identificationQualifier: 
 taxonRank: genus
 ---

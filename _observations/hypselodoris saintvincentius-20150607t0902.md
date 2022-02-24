@@ -5,24 +5,24 @@ basisOfRecord: HumanObservation
 # Occurrence terms
 recordedBy: Matthias Liffers
 recordedByID: https://orcid.org/0000-0002-3639-2080
-occurrenceRemarks: " "
+occurrenceRemarks: ""
 # Event terms
-eventDateTime: 2015-04-15T12:33:19
+eventDateTime: 2015-06-07T09:02:07
 year: 2015
-month: 4
-day: 15
+month: 6
+day: 7
 # Location terms
-locationRemarks: Busselton Jetty,  Busselton /  Australia
-minimumDepthInMeters: 7.14
-maximumDepthInMeters: 7.6
-decimalLatitude: -33.630113
-decimalLatitude: 115.338566
-temperature: 25
+locationRemarks: Grain Terminal,  Kwinana /  Australia
+minimumDepthInMeters: 3.84
+maximumDepthInMeters: 3.92
+decimalLatitude: -32.256193
+decimalLatitude: 115.748000
+temperature: 24
 # Identification terms
 identifiedBy: 
 identifiedByID: 
 # Taxon terms
-scientificName: Hypselodoris saintvincentia
+scientificName: Hypselodoris saintvincentius
 identificationQualifier: 
 taxonRank: genus
 ---
