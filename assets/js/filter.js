@@ -15,6 +15,10 @@ function init() {
     */
 }
 
+function masonryLayout() {
+    $(".mason").masonry();
+}
+
 function showAllThumbs() {
     $(".thumb").collapse("show");
 }
@@ -43,7 +47,7 @@ function filterThumbs() {
         hideTheseThumbs(antiFilter);
         showTheseThumbs(filter);
     }
-    setTimeout($(".mason").masonry(), 500);
+    setTimeout( masonryLayout, 500);
 }
 
 init();
