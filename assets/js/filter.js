@@ -14,7 +14,7 @@ function init() {
         "percentPosition": true,
         "itemSelector": ".mason-item"
     });
-    const masonryCol = document.getElementsById('mason');
+    const masonryCol = document.getElementById('mason');
     masonryCol.addEventListener('shown.bs.collapse', function() {
         msnry.layout();
     });
