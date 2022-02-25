@@ -24,6 +24,7 @@ function filterThumbs() {
     $(".filter").each( function() {
         if ( $(this).val() != "") filters.concat( ".", $(this).val()) ;
     });
+    console.log(filters);
     if ( filters.length  == 0 ) {
         showAllThumbs();
     } else {
