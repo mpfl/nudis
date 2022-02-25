@@ -43,7 +43,7 @@ function filterThumbs() {
         hideTheseThumbs(antiFilter);
         showTheseThumbs(filter);
     }
-    setTimeout($(".mason").masonry(), 100);
+    setTimeout($(".mason").masonry(), 500);
 }
 
 init();
