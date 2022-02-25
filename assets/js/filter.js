@@ -20,16 +20,15 @@ function showTheseThumbs(these) {
 }
 
 function filterThumbs() {
-    var filters = new Array();
+    var filters = new String();
     $(".filter").each( function() {
-        if ( $(this).val() != "") filters.push( $(this).val()) ;
+        if ( $(this).val() != "") filters.concat( ".", $(this).val()) ;
     });
     if ( filters.length  == 0 ) {
         showAllThumbs();
     } else {
-        allFilters = filters.join(", ");
         hideAllThumbs();
-        showTheseThumbs(allFilters);
+        showTheseThumbs(filters);
     }
 }
 
