@@ -1,4 +1,5 @@
 function init() {
+    /*
     $(window).on("load", function() {
         $(".mason").masonry({
             "percentPosition": true,
@@ -11,10 +12,19 @@ function init() {
     $(".mason").on('hidden.bs.collapse', function() {
         $(this).masonry();
     });
-}
-
-function masonryLayout() {
-    $(".mason").masonry();
+    */
+    $(window).on("load", function() {
+        $('.mason').packery({
+            // options
+            itemSelector: '.mason-item',
+          });
+    });
+    $(".mason").on('shown.bs.collapse', function() {
+        $(this).packery();;
+    });
+    $(".mason").on('hidden.bs.collapse', function() {
+        $(this).packery();;
+    });
 }
 
 function showAllThumbs() {
