@@ -5,12 +5,14 @@ function init() {
             "itemSelector": ".mason-item"        
         })
     });
+    /*
     $(".mason").on('shown.bs.collapse', function() {
         $(this).masonry();
     });
     $(".mason").on('hidden.bs.collapse', function() {
         $(this).masonry();
     });
+    */
 }
 
 function showAllThumbs() {
@@ -41,6 +43,7 @@ function filterThumbs() {
         hideTheseThumbs(antiFilter);
         showTheseThumbs(filter);
     }
+    setTimeout($(".mason").masonry(), 100);
 }
 
 init();
