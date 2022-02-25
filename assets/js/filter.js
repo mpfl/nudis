@@ -5,10 +5,10 @@ function init() {
             "itemSelector": ".mason-item"        
         })
     });
-    $(".mason").addEventListener('shown.bs.collapse', function() {
+    $(".mason").on('shown.bs.collapse', function() {
         $(".mason").masonry();
     });
-    $(".mason").addEventListener('hidden.bs.collapse', function() {
+    $(".mason").on('hidden.bs.collapse', function() {
         $(".mason").masonry();
     });
 }
