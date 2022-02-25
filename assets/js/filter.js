@@ -5,14 +5,12 @@ function init() {
             "itemSelector": ".mason-item"        
         })
     });
-    /*
     $(".mason").on('shown.bs.collapse', function() {
         $(this).masonry();
     });
     $(".mason").on('hidden.bs.collapse', function() {
         $(this).masonry();
     });
-    */
 }
 
 function masonryLayout() {
@@ -47,7 +45,6 @@ function filterThumbs() {
         hideTheseThumbs(antiFilter);
         showTheseThumbs(filter);
     }
-    setTimeout( masonryLayout, 500);
 }
 
 init();
