@@ -12,10 +12,12 @@ function init() {
         showAllThumbs()
     }, false);
     */
-    $grid('.mason').masonry({
-        "percentPosition": true,
-        "itemSelector": ".mason-item"        
-    })
+    $(window).on("load", function() {
+        $grid('.mason').masonry({
+            "percentPosition": true,
+            "itemSelector": ".mason-item"        
+        })
+    }
 }
 
 function showAllThumbs() {
