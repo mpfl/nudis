@@ -4,14 +4,20 @@ function init() {
             "percentPosition": true,
             "itemSelector": ".mason-item"        
         })
-    })
+    });
+    $(".mason").addEventListener('shown.bs.collapse', function() {
+        $(".mason").masonry();
+    });
+    $(".mason").addEventListener('hidden.bs.collapse', function() {
+        $(".mason").masonry();
+    });
 }
 
 function showAllThumbs() {
     $(".thumb").collapse("show");
 }
 
-function hideThumbs() {
+function hideAllThumbs() {
     $(".thumb").collapse("hide");
 }
 
@@ -28,9 +34,6 @@ function filterThumbs() {
     $(".filter").each( function() {
         if ( $(this).val() != "") filter = filter.concat( ".", $(this).val()) ;
     });
-    antiFilter = ":not(".concat(filter).concat(")");
-    console.log(".thumb".concat(filter));
-    console.log(".thumb:not(".concat(filter).concat(")"));
     if ( filter.length  == 0 ) {
         showAllThumbs();
     } else {
