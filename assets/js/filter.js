@@ -6,6 +6,10 @@ function init() {
     }
     var reset = document.getElementById("reset");
     reset.addEventListener('click', function() { showAllThumbs() }, false);
+    const msnry = new Masonry("#mason", {
+        "percentPosition": true,
+        "itemSelector": ".mason-item"
+    });
 }
 
 function showAllThumbs() {
@@ -13,6 +17,7 @@ function showAllThumbs() {
     for ( i = 0; i < thumbsToShow.length; i++) {
         thumbsToShow[i].classList.add("show");
     }
+    msnry.layout();
 }
 
 function hideAllThumbs() {
@@ -43,6 +48,7 @@ function filterThumbs() {
         hideAllThumbs();
         showTheseThumbs(allFilters);
     }
+    msnry.layout();
 }
 
 init();
