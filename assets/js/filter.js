@@ -8,10 +8,13 @@ function init() {
 }
 
 function showAllThumbs() {
+    $('.thumb').collapse("show");
+    /*
     thumbsToShow = document.getElementsByClassName("thumb");
     for ( i = 0; i < thumbsToShow.length; i++) {
         thumbsToShow[i].classList.add("show");
     }
+    */
 }
 
 function hideAllThumbs() {
