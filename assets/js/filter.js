@@ -5,12 +5,8 @@ function init() {
             "itemSelector": ".mason-item"        
         })
     });
-    $(".mason").on('shown.bs.collapse', function() {
-        $(".mason").masonry();
-    });
-    $(".mason").on('hidden.bs.collapse', function() {
-        $(".mason").masonry();
-    });
+    $(".mason").on('shown.bs.collapse', .masonry() );
+    $(".mason").on('hidden.bs.collapse', .masonry() );
 }
 
 function showAllThumbs() {
