@@ -18,17 +18,23 @@ function showAllThumbs() {
 }
 
 function hideAllThumbs() {
+    $('.thumb').collapse("hide");
+    /*
     var allThumbs = document.getElementsByClassName("thumb");
     for ( i = 0; i < allThumbs.length; i++) {
         allThumbs[i].classList.remove("show");
     }
+    */
 }
 
-function showTheseThumbs(classes) {
+function showTheseThumbs(these) {
+    $(these).collapse("show");
+    /*
     var thumbsToShow = document.getElementsByClassName(classes);
     for ( i = 0; i < thumbsToShow.length; i++) {
         thumbsToShow[i].classList.add("show");
     }
+    */
 }
 
 function filterThumbs() {
@@ -36,7 +42,7 @@ function filterThumbs() {
     var allFilters = "";
     for (i = 0; i < filters.length; i++) {
         if (filters[i].options[filters[i].selectedIndex].value != "") {
-            allFilters = allFilters + filters[i].options[filters[i].selectedIndex].value + " ";
+            allFilters = allFilters + filters[i].options[filters[i].selectedIndex].value + ", ";
         }
     }
     if ( allFilters == "" ) {
