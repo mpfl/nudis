@@ -22,7 +22,7 @@ function showTheseThumbs(these) {
 function filterThumbs() {
     var filters = new Array();
     $(".filter").each( function() {
-       filters.push( $(this).val()) ;
+        if ( $(this).val() != "") filters.push( $(this).val()) ;
     });
     if ( filters.length  == 0 ) {
         showAllThumbs();
