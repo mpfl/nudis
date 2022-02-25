@@ -4,7 +4,7 @@
         <div class="col collapse show mason-item thumb {% for colour in species.colours %}{{ colour }} {% endfor %}{{ species.family }} {{ species.genus }}">
             <div class="card h-100">
                 <a href="{{ site.baseurl }}{{ species.url }}"><img alt="{{ species.scientificName }} {{ species.identificationQualifier }}" class="card-img-top" src="{{ site.baseurl }}/assets/images/thumbs/{{ speciesBestObservation.path | split: '/' | last | split: '.' | first }}.jpg" /></a>
-         </div>
+            </div>
         </div>
         {% endfor %}
 </div>
