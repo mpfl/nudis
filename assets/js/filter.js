@@ -1,8 +1,9 @@
-
 function init() {
-    $(".mason").masonry({
-        "percentPosition": true,
-        "itemSelector": ".mason-item"        
+    $(window).on("load", function() {
+        $('.mason').masonry({
+            "percentPosition": true,
+            "itemSelector": ".mason-item"        
+        })
     })
 }
 
