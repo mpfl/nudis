@@ -16,7 +16,8 @@ function hideAllThumbs() {
 }
 
 function showTheseThumbs(these) {
-    $(these).collapse("show");
+    $(".thumbs:not(".concat(filters).concat(")")).collapse("hide");
+    $(".thumbs".concat(these)).collapse("show");
 }
 
 function filterThumbs() {
@@ -24,11 +25,11 @@ function filterThumbs() {
     $(".filter").each( function() {
         if ( $(this).val() != "") filters = filters.concat( ".", $(this).val()) ;
     });
-    console.log(filters);
+    console.log(".thumbs".concat(filters));
+    console.log(".thumbs:not(".concat(filters).concat(")"));
     if ( filters.length  == 0 ) {
         showAllThumbs();
     } else {
-        hideAllThumbs();
         showTheseThumbs(filters);
     }
 }
