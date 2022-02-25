@@ -2,13 +2,24 @@
 function init() {
     var filters = document.getElementsByClassName("filter");
     for ( i = 0; i < filters.length; i++) {
-        filters[i].addEventListener('change', function() { filterThumbs() }, false);        
+        filters[i].addEventListener('change', function() {
+            filterThumbs()
+        }, false);        
     }
     var reset = document.getElementById("reset");
-    reset.addEventListener('click', function() { showAllThumbs() }, false);
-    const msnry = new Masonry(".mason", {
+    reset.addEventListener('click', function() {
+        showAllThumbs()
+    }, false);
+    const msnry = new Masonry("#mason", {
         "percentPosition": true,
         "itemSelector": ".mason-item"
+    });
+    const masonryCol = document.getElementsById('mason');
+    masonryCol.addEventListener('shown.bs.collapse', function() {
+        msnry.layout();
+    });
+    masonryCol.addEventListener('hidden.bs.collapse', function() {
+        msnry.layout();
     });
 }
 
@@ -17,7 +28,6 @@ function showAllThumbs() {
     for ( i = 0; i < thumbsToShow.length; i++) {
         thumbsToShow[i].classList.add("show");
     }
-    msnry.layout();
 }
 
 function hideAllThumbs() {
@@ -48,7 +58,6 @@ function filterThumbs() {
         hideAllThumbs();
         showTheseThumbs(allFilters);
     }
-    msnry.layout();
 }
 
 init();
