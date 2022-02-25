@@ -1,5 +1,6 @@
 
 function init() {
+    /*
     var filters = document.getElementsByClassName("filter");
     for ( i = 0; i < filters.length; i++) {
         filters[i].addEventListener('change', function() {
@@ -10,19 +11,11 @@ function init() {
     reset.addEventListener('click', function() {
         showAllThumbs()
     }, false);
-    /*
-    var elem = document.querySelector(".mason");
-    var msnry = new Masonry( elem, {
-        "percentPosition": true,
-        "itemSelector": ".mason-item"
-    });
-    elem.addEventListener('shown.bs.collapse', function() {
-        msnry.layout();
-    });
-    elem.addEventListener('hidden.bs.collapse', function() {
-        msnry.layout();
-    });
     */
+    $grid('.mason').masonry({
+        "percentPosition": true,
+        "itemSelector": ".mason-item"        
+    })
 }
 
 function showAllThumbs() {

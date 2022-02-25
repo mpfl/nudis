@@ -5,7 +5,7 @@
             {% assign colours = colours | concat: species.colours %}
         {% endfor %}
         {% assign colours = colours | uniq | sort %}
-        <select name="colour" id="colour_select" class="form-select filter" aria-label="Colour select">
+        <select name="colour" id="colour_select" class="form-select filter" aria-label="Colour select" onchange="filterThumbs()">
             <option value="" selected></option>
             {% for colour in colours %}
                 <option value="{{ colour }}">{{ colour | capitalize }}</option>
