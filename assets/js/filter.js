@@ -1,6 +1,6 @@
 function init() {
     $(window).on("load", function() {
-        $('.mason').masonry({
+        $(".mason").masonry({
             "percentPosition": true,
             "itemSelector": ".mason-item"        
         })
@@ -8,46 +8,26 @@ function init() {
 }
 
 function showAllThumbs() {
-    $('.thumb').collapse("show");
-    /*
-    thumbsToShow = document.getElementsByClassName("thumb");
-    for ( i = 0; i < thumbsToShow.length; i++) {
-        thumbsToShow[i].classList.add("show");
-    }
-    */
+    $(".thumb").collapse("show");
 }
 
 function hideAllThumbs() {
-    $('.thumb').collapse("hide");
-    /*
-    var allThumbs = document.getElementsByClassName("thumb");
-    for ( i = 0; i < allThumbs.length; i++) {
-        allThumbs[i].classList.remove("show");
-    }
-    */
+    $(".thumb").collapse("hide");
 }
 
 function showTheseThumbs(these) {
     $(these).collapse("show");
-    /*
-    var thumbsToShow = document.getElementsByClassName(classes);
-    for ( i = 0; i < thumbsToShow.length; i++) {
-        thumbsToShow[i].classList.add("show");
-    }
-    */
 }
 
 function filterThumbs() {
-    var filters = document.getElementsByClassName("filter");
-    var allFilters = "";
-    for (i = 0; i < filters.length; i++) {
-        if (filters[i].options[filters[i].selectedIndex].value != "") {
-            allFilters = allFilters + filters[i].options[filters[i].selectedIndex].value + ", ";
-        }
-    }
-    if ( allFilters == "" ) {
+    var filters = new Array();
+    $(".filter").each( function() {
+       filters.push( $(this).val()) ;
+    });
+    if ( filters.length  == 0 ) {
         showAllThumbs();
     } else {
+        allFilters = filters.join(", ");
         hideAllThumbs();
         showTheseThumbs(allFilters);
     }
