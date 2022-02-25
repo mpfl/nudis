@@ -13,7 +13,7 @@ function init() {
     }, false);
     */
     $(window).on("load", function() {
-        $grid('.mason').masonry({
+        $('.mason').masonry({
             "percentPosition": true,
             "itemSelector": ".mason-item"        
         })
