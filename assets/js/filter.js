@@ -6,10 +6,10 @@ function init() {
         })
     });
     $(".mason").on('shown.bs.collapse', function() {
-        this.masonry();
+        $(this).masonry();
     });
     $(".mason").on('hidden.bs.collapse', function() {
-        this.masonry();
+        $(this).masonry();
     });
 }
 
