@@ -10,7 +10,7 @@ function init() {
     reset.addEventListener('click', function() {
         showAllThumbs()
     }, false);
-    const msnry = new Masonry("#mason", {
+    const msnry = new Masonry(".mason", {
         "percentPosition": true,
         "itemSelector": ".mason-item"
     });
