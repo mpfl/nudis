@@ -2,8 +2,9 @@
     {% for species in site.species %}
         {% assign speciesBestObservation = site.observations | where: "scientificName", species.scientificName | where: "identificationQualifier", species.identificationQualifier | sort: "rating" | last %}
         <div class="col collapse show mason-item thumb {% for colour in species.colours %}{{ colour }} {% endfor %}{{ species.family }} {{ species.genus }}">
-            <title>{{ species.scientificName }} {{ species.identificationQualifier }}</title>
-            <a href="{{ site.baseurl }}{{ species.url }}"><img alt="{{ species.scientificName }} {{ species.identificationQualifier }}" class="d-block img-thumbnail" src="{{ site.baseurl }}/assets/images/thumbs/{{ speciesBestObservation.path | split: '/' | last | split: '.' | first }}.jpg" /></a>
+            <div class="card">
+                <a href="{{ site.baseurl }}{{ species.url }}"><img alt="{{ species.scientificName }} {{ species.identificationQualifier }}" class="card-img-top" src="{{ site.baseurl }}/assets/images/thumbs/{{ speciesBestObservation.path | split: '/' | last | split: '.' | first }}.jpg" /></a>
+         </div>
         </div>
         {% endfor %}
 </div>

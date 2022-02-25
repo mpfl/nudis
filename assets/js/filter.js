@@ -10,7 +10,6 @@ function init() {
     reset.addEventListener('click', function() {
         showAllThumbs()
     }, false);
-    /*
     var elem = document.querySelector(".mason");
     var msnry = new Masonry( elem, {
         "percentPosition": true,
@@ -22,7 +21,6 @@ function init() {
     elem.addEventListener('hidden.bs.collapse', function() {
         msnry.layout();
     });
-    */
 }
 
 function showAllThumbs() {
