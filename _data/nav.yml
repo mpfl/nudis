@@ -1,5 +1,7 @@
 pages:
 - title: Home
   url: /
+- title: Lists
+  url: /lists
 - title: About
   url: /about
