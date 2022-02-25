@@ -11,26 +11,32 @@ function showAllThumbs() {
     $(".thumb").collapse("show");
 }
 
-function hideAllThumbs() {
+function hideThumbs() {
     $(".thumb").collapse("hide");
 }
 
+function hideTheseThumbs(these) {
+    $(".thumb".concat(these)).collapse("hide");
+}
+
 function showTheseThumbs(these) {
-    $(".thumb:not(".concat(filters).concat(")")).collapse("hide");
     $(".thumb".concat(these)).collapse("show");
 }
 
 function filterThumbs() {
-    var filters = new String();
+    var filter = new String();
     $(".filter").each( function() {
-        if ( $(this).val() != "") filters = filters.concat( ".", $(this).val()) ;
+        if ( $(this).val() != "") filter = filter.concat( ".", $(this).val()) ;
     });
-    console.log(".thumb".concat(filters));
-    console.log(".thumb:not(".concat(filters).concat(")"));
-    if ( filters.length  == 0 ) {
+    antiFilter = ":not(".concat(filter).concat(")");
+    console.log(".thumb".concat(filter));
+    console.log(".thumb:not(".concat(filter).concat(")"));
+    if ( filter.length  == 0 ) {
         showAllThumbs();
     } else {
-        showTheseThumbs(filters);
+        antiFilter = ":not(".concat(filter).concat(")");
+        hideTheseThumbs(antiFilter);
+        showTheseThumbs(filter);
     }
 }
 
