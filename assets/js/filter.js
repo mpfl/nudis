@@ -10,15 +10,15 @@ function init() {
     reset.addEventListener('click', function() {
         showAllThumbs()
     }, false);
-    const msnry = new Masonry(".mason", {
+    var elem = document.querySelector(".mason");
+    var msnry = new Masonry( elem, {
         "percentPosition": true,
         "itemSelector": ".mason-item"
     });
-    const masonryCol = document.getElementById('mason');
-    masonryCol.addEventListener('shown.bs.collapse', function() {
+    elem.addEventListener('shown.bs.collapse', function() {
         msnry.layout();
     });
-    masonryCol.addEventListener('hidden.bs.collapse', function() {
+    elem.addEventListener('hidden.bs.collapse', function() {
         msnry.layout();
     });
 }
