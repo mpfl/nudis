@@ -4,7 +4,14 @@
         {% include filterFamily.html %}
         {% include filterGenus.html %}
         <div class="col">
-            <button id="reset" type="reset" class="btn btn-primary" onclick="showAllThumbs()">Reset filters</button>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#caption" aria-expanded="false" aria-controls="caption">
+                Toggle captions
+              </button>
+        </div>
+        <div class="col">
+            <button id="reset" type="reset" class="btn btn-primary" onclick="showAllThumbs()">
+                Reset filters
+            </button>
         </div>
     </form>
 </div>
