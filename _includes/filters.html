@@ -1,14 +1,14 @@
-<div markdown="0">
-    <form id="filters" class="row row-cols-1 row-cols-sm-4 row-cols-lg-7 py-3 g-3">
+<div markdown="0" class="row justify-content-md-center row-cols-1 row-cols-sm-4 row-cols-lg-12 py-3 g-3">
+    <form id="filters">
         {% include filterColour.html %}
         {% include filterFamily.html %}
         {% include filterGenus.html %}
-        <div class="col-2">
+        <div class="col">
             <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".collapseCaption" aria-expanded="false">
                 Toggle captions
             </button>
         </div>
-        <div class="col-1">
+        <div class="col">
             <button id="reset" type="reset" class="btn btn-primary" onclick="showAllThumbs()">
                 Reset filters
             </button>
