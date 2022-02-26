@@ -25,4 +25,6 @@ identifiedByID:
 scientificName: Plocamopherus ceylonicus
 identificationQualifier: 
 taxonRank: genus
+# Extra non-Darwin Core terms
+rating: 4
 ---

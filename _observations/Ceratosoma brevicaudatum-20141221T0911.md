@@ -25,4 +25,6 @@ identifiedByID:
 scientificName: Ceratosoma brevicaudatum
 identificationQualifier: 
 taxonRank: genus
+# Extra non-Darwin Core terms
+rating: 3
 ---

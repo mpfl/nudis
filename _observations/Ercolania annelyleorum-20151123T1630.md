@@ -25,4 +25,6 @@ identifiedByID:
 scientificName: Ercolania annelyleorum
 identificationQualifier: 
 taxonRank: genus
+# Extra non-Darwin Core terms
+rating: 4
 ---

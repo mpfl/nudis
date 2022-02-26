@@ -25,4 +25,6 @@ identifiedByID:
 scientificName: Okenia
 identificationQualifier: cf. pellucia
 taxonRank: genus
+# Extra non-Darwin Core terms
+rating: 4
 ---

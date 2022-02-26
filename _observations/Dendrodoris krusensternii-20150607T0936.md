@@ -25,4 +25,6 @@ identifiedByID:
 scientificName: Dendrodoris krusensternii
 identificationQualifier: 
 taxonRank: genus
+# Extra non-Darwin Core terms
+rating: 4
 ---

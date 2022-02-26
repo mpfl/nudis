@@ -25,4 +25,6 @@ identifiedByID:
 scientificName: Mexichromis macropus
 identificationQualifier: 
 taxonRank: genus
+# Extra non-Darwin Core terms
+rating: 4
 ---

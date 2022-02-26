@@ -25,4 +25,6 @@ identifiedByID:
 scientificName: Aphelodoris
 identificationQualifier: sp. 1
 taxonRank: genus
+# Extra non-Darwin Core terms
+rating: 3
 ---

@@ -25,4 +25,6 @@ identifiedByID:
 scientificName: Godiva quadricolor
 identificationQualifier: 
 taxonRank: genus
+# Extra non-Darwin Core terms
+rating: 4
 ---

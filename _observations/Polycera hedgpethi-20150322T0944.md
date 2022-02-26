@@ -25,4 +25,6 @@ identifiedByID:
 scientificName: Polycera hedgpethi
 identificationQualifier: 
 taxonRank: genus
+# Extra non-Darwin Core terms
+rating: 3
 ---

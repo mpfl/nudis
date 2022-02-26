@@ -25,4 +25,6 @@ identifiedByID:
 scientificName: Phyllodesmium poindimiei
 identificationQualifier: 
 taxonRank: genus
+# Extra non-Darwin Core terms
+rating: 4
 ---

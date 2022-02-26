@@ -24,5 +24,6 @@ identifiedByID:
 # Taxon terms
 scientificName: Chromodoris colemani
 identificationQualifier: 
-taxonRank: genus
+# Extra non-Darwin Core terms
+rating: 3
 ---

@@ -25,4 +25,6 @@ identifiedByID:
 scientificName: Nudibranchia
 identificationQualifier: sp. 2
 taxonRank: genus
+# Extra non-Darwin Core terms
+rating: 3
 ---

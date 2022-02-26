@@ -25,4 +25,6 @@ identifiedByID:
 scientificName: Verconia verconis
 identificationQualifier: 
 taxonRank: genus
+# Extra non-Darwin Core terms
+rating: 4
 ---

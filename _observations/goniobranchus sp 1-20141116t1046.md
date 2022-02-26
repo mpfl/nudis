@@ -25,4 +25,6 @@ identifiedByID:
 scientificName: Goniobranchus
 identificationQualifier: sp. 1
 taxonRank: genus
+# Extra non-Darwin Core terms
+rating: 4
 ---

@@ -25,4 +25,6 @@ identifiedByID:
 scientificName: Cratena lineata
 identificationQualifier: 
 taxonRank: genus
+# Extra non-Darwin Core terms
+rating: 4
 ---
