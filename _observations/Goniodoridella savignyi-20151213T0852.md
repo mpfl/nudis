@@ -24,7 +24,7 @@ identifiedByID:
 # Taxon terms
 scientificName: Goniodoridella savignyi
 identificationQualifier: 
-taxonRank: genus
+taxonRank: species
 # Extra non-Darwin Core terms
 rating: 4
 ---

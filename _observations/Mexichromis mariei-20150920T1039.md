@@ -24,7 +24,7 @@ identifiedByID:
 # Taxon terms
 scientificName: Mexichromis mariei
 identificationQualifier: 
-taxonRank: genus
+taxonRank: species
 # Extra non-Darwin Core terms
 rating: 3
 ---

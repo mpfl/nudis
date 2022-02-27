@@ -24,7 +24,7 @@ identifiedByID:
 # Taxon terms
 scientificName: Phyllidiella pustulosa
 identificationQualifier: 
-taxonRank: genus
+taxonRank: genspeciesus
 # Extra non-Darwin Core terms
 rating: 3
 ---
