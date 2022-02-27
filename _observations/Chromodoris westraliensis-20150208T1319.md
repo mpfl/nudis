@@ -16,7 +16,7 @@ locationRemarks: Low Caves,  Rottnest /  Australia
 minimumDepthInMeters: 10.74
 maximumDepthInMeters: 11.5
 decimalLatitude: -32.005694
-decimalLatitude: 115.461000
+decimalLongitude: 115.461000
 temperature: 24
 # Identification terms
 identifiedBy: 

@@ -16,7 +16,7 @@ locationRemarks: Point Peron, Rockingham / Australia
 minimumDepthInMeters: 4.4
 maximumDepthInMeters: 4.4
 decimalLatitude: -32.270474
-decimalLatitude: 115.684912
+decimalLongitude: 115.684912
 temperature: 25
 # Identification terms
 identifiedBy: 

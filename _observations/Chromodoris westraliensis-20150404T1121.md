@@ -16,7 +16,7 @@ locationRemarks: The Caves,  Mindarie /  Australia
 minimumDepthInMeters: 10.46
 maximumDepthInMeters: 10.36
 decimalLatitude: -31.688305
-decimalLatitude: 115.648000
+decimalLongitude: 115.648000
 temperature: 25
 # Identification terms
 identifiedBy: 

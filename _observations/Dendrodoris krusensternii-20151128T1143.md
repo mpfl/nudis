@@ -16,7 +16,7 @@ locationRemarks: Underwater Interpretive Snorkel And Dive Trail,  Jurien Bay /  
 minimumDepthInMeters: 4.72
 maximumDepthInMeters: 4.94
 decimalLatitude: -30.300726
-decimalLatitude: 115.037155
+decimalLongitude: 115.037155
 temperature: 25
 # Identification terms
 identifiedBy: 

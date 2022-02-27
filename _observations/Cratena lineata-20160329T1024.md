@@ -16,7 +16,7 @@ locationRemarks: Ammunition Jetty, Coogee, Australia
 minimumDepthInMeters: 6.76
 maximumDepthInMeters: 6.97
 decimalLatitude: -32.124000
-decimalLatitude: 115.758000
+decimalLongitude: 115.758000
 temperature: 23
 # Identification terms
 identifiedBy: 

@@ -16,7 +16,7 @@ locationRemarks: Gareenup Wreck, North Fremantle / Australia
 minimumDepthInMeters: 7.6
 maximumDepthInMeters: 7.6
 decimalLatitude: -32.052437
-decimalLatitude: 115.725339
+decimalLongitude: 115.725339
 temperature: 24
 # Identification terms
 identifiedBy: 

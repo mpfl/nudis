@@ -16,7 +16,7 @@ locationRemarks: Woodman Point Groin, Coogee
 minimumDepthInMeters: 6.82
 maximumDepthInMeters: 6.76
 decimalLatitude: -32.137831
-decimalLatitude: 115.744733
+decimalLongitude: 115.744733
 temperature: 21
 # Identification terms
 identifiedBy: 

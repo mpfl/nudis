@@ -16,7 +16,7 @@ locationRemarks: Bhp Jetty,  Kwinana /  Australia
 minimumDepthInMeters: 6.34
 maximumDepthInMeters: 6.36
 decimalLatitude: -32.208888
-decimalLatitude: 115.766000
+decimalLongitude: 115.766000
 temperature: 24
 # Identification terms
 identifiedBy: 

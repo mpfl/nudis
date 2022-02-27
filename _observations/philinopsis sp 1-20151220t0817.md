@@ -16,7 +16,7 @@ locationRemarks: South Mole,  Fremantle /  Australia
 minimumDepthInMeters: 3.4
 maximumDepthInMeters: 3.38
 decimalLatitude: -32.056888
-decimalLatitude: 115.740000
+decimalLongitude: 115.740000
 temperature: 22
 # Identification terms
 identifiedBy: 

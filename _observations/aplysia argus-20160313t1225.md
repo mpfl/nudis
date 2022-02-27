@@ -16,7 +16,7 @@ locationRemarks: Lena Wreck, Bunbury, Australia
 minimumDepthInMeters: 9.75
 maximumDepthInMeters: 9.05
 decimalLatitude: -33.296099
-decimalLatitude: 115.609000
+decimalLongitude: 115.609000
 temperature: 23
 # Identification terms
 identifiedBy: 

@@ -16,7 +16,7 @@ locationRemarks: Woodman Point,  Woodman Point /  Australia
 minimumDepthInMeters: 6.73
 maximumDepthInMeters: 6.87
 decimalLatitude: -32.138394
-decimalLatitude: 115.743548
+decimalLongitude: 115.743548
 temperature: 22
 # Identification terms
 identifiedBy: 

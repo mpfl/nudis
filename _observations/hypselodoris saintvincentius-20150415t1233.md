@@ -16,7 +16,7 @@ locationRemarks: Busselton Jetty,  Busselton /  Australia
 minimumDepthInMeters: 7.14
 maximumDepthInMeters: 7.6
 decimalLatitude: -33.630113
-decimalLatitude: 115.338566
+decimalLongitude: 115.338566
 temperature: 21
 # Identification terms
 identifiedBy: 

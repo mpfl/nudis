@@ -16,7 +16,7 @@ locationRemarks: Sue's Groyne /  Australia
 minimumDepthInMeters: 6.2
 maximumDepthInMeters: 5.9
 decimalLatitude: -32.096888
-decimalLatitude: 115.757000
+decimalLongitude: 115.757000
 temperature: 23
 # Identification terms
 identifiedBy: 

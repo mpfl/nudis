@@ -16,7 +16,7 @@ locationRemarks: Rockingham Dive Trail, Rockingham, Australia
 minimumDepthInMeters: 17.18
 maximumDepthInMeters: 17.3
 decimalLatitude: -32.273019
-decimalLatitude: 115.730226
+decimalLongitude: 115.730226
 temperature: 23
 # Identification terms
 identifiedBy: 

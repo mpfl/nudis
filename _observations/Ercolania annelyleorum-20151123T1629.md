@@ -16,7 +16,7 @@ locationRemarks: Bicton Baths,  Bicton /  Australia
 minimumDepthInMeters: 5.76
 maximumDepthInMeters: 5.48
 decimalLatitude: -32.028239
-decimalLatitude: 115.776945
+decimalLongitude: 115.776945
 temperature: 25
 # Identification terms
 identifiedBy: 

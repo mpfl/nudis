@@ -16,7 +16,7 @@ locationRemarks: Marmion Angling And Aquatic Club,  Perth /  Australia
 minimumDepthInMeters: 4.76
 maximumDepthInMeters: 4.92
 decimalLatitude: -31.839000
-decimalLatitude: 115.749000
+decimalLongitude: 115.749000
 temperature: 24
 # Identification terms
 identifiedBy: 

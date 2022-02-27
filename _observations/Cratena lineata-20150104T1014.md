@@ -16,7 +16,7 @@ locationRemarks: Ammunition Jetty,  Woodman Point /  Australia
 minimumDepthInMeters: 7.34
 maximumDepthInMeters: 7.56
 decimalLatitude: -32.123948
-decimalLatitude: 115.758068
+decimalLongitude: 115.758068
 temperature: 19
 # Identification terms
 identifiedBy: 

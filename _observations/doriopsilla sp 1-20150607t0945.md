@@ -16,7 +16,7 @@ locationRemarks: Grain Terminal,  Kwinana /  Australia
 minimumDepthInMeters: 4.4
 maximumDepthInMeters: 4.58
 decimalLatitude: -32.256193
-decimalLatitude: 115.748000
+decimalLongitude: 115.748000
 temperature: 25
 # Identification terms
 identifiedBy: 

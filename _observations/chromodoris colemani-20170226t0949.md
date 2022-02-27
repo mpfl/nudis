@@ -16,7 +16,7 @@ locationRemarks: Burns Rocks, Mindarie / Australia
 minimumDepthInMeters: 9.35
 maximumDepthInMeters: 9.33
 decimalLatitude: -31.728323
-decimalLatitude: 115.707461
+decimalLongitude: 115.707461
 temperature: 23
 # Identification terms
 identifiedBy: 

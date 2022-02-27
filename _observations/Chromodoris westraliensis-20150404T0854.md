@@ -16,7 +16,7 @@ locationRemarks: Daryl's Cave System /  Australia
 minimumDepthInMeters: 18.52
 maximumDepthInMeters: 18.7
 decimalLatitude: -31.663805
-decimalLatitude: 115.631000
+decimalLongitude: 115.631000
 temperature: 21
 # Identification terms
 identifiedBy: 
