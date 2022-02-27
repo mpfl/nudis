@@ -4,7 +4,7 @@ title: Lists
 permalink: /lists
 ---
 
-# {{ site.title }}
+#{{ page.title }}
 
 ## Species by family
 

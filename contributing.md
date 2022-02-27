@@ -4,6 +4,8 @@ title: Contributing
 permalink: /contributing
 ---
 
+#{{ page.title }}
+
 I welcome contributions but have not yet worked out the best way to accept them.
 
 ## Code of Conduct

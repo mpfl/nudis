@@ -4,6 +4,8 @@ title: About this site
 permalink: /about
 ---
 
+#{{ page.title }}
+
 {% include siteStats.html %}
 
 I like taking photos of nudis. I also like identifying nudis. These are the nudis I've spotted. I've not identified all of them.
