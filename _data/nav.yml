@@ -3,5 +3,7 @@ pages:
   url: /
 - title: Lists
   url: /lists
+- title: Contribute
+  url: /contribute
 - title: About
   url: /about
