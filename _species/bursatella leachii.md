@@ -7,8 +7,8 @@ taxonRank: species
 scientificNameAuthorship: Blainville, 1817
 identificationQualifier: 
 colours:
-  - black
   - blue
+  - brown
   - green
   - white
 aphiaID: 138759
