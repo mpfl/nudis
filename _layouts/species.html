@@ -9,7 +9,7 @@ layout: page
 <h2>Observations</h2>
 
 <div class="row row-cols-auto g-3">
-    {% for observation in site.observations | where: scientificName, page.scientificName | where identificationQualifier, page.identificationQualifier | sort eventDateTime %}
+    {% for observation in site.observations | where: "scientificName", page.scientificName | where "identificationQualifier", page.identificationQualifier | sort eventDateTime %}
         <div class="card">
             <a href="{{ site.baseurl }}{{ observation.url }}"><img class="card-img-top" alt="{{ page.scientificName }} {{ page.identificationQualifier}}" src="{{ site.baseurl }}/assets/images/thumbs/{{ observation.path | split: '/' | last | split: '.' | first }}.jpg" /></a>
             <div class="card-body">
