@@ -7,22 +7,22 @@ recordedBy: Matthias Liffers
 recordedByID: https://orcid.org/0000-0002-3639-2080
 occurrenceRemarks: ""
 # Event terms
-eventDateTime: 2014-12-21T09:37:03
-year: 2014
+eventDateTime: 2015-12-20T07:47:43
+year: 2015
 month: 12
-day: 21
+day: 20
 # Location terms
-locationRemarks: Bhp Jetty,  Kwinana /  Australia
-minimumDepthInMeters: 8.32
-maximumDepthInMeters: 8.34
-decimalLatitude: -32.208888
-decimalLongitude: 115.766000
-temperature: 23
+locationRemarks: South Mole,  Fremantle /  Australia
+minimumDepthInMeters: 2.3
+maximumDepthInMeters: 2.34
+decimalLatitude: -32.056888
+decimalLongitude: 115.740000
+temperature: 21
 # Identification terms
 identifiedBy: 
-identifiedByID: 
+identifiedByID:
 # Taxon terms
-scientificName: Bursatella leachii
+scientificName: Bursatella hirsuta
 identificationQualifier: 
 taxonRank: species
 # Non Darwin Core terms
