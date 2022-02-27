@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: page
 ---
 
-<h1>{{ page.scientificName }} {{ page.identificationQualifier}} {{ page.scientificNameAuthorship }}</h1>
+<h1>{{ page.scientificName }} {% if page.identificationQualifier == "" %}{{ page.scientificNameAuthorship }}{% else %}{{ page.identificationQualifier}}{% endif %}</h1>
 
 <p>Family: {{ page.family }}</p>
 

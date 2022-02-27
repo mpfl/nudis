@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: page
 ---
 
-<h1>{{ page.scientificName }} {{ page.identificationQualifier}}</h1>
+<h1>{{ page.scientificName }} {% if page.identificationQualifier == "" %}{{ page.scientificNameAuthorship }}{% else %}{{ page.identificationQualifier}}{% endif %}</h1>
 
 <img class="img-fluid" alt="{{ page.scientificName }} {{ page.identificationQualifier}}" src="{{ site.baseurl }}/assets/images/full/{{ page.path | split: '/' | last | split: '.' | first }}.jpg" /><br />
