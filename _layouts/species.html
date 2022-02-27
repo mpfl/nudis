@@ -2,8 +2,6 @@
 layout: page
 ---
 
-{% assign speciesObservations = site.observations | where: "scientificName", page.scientificName | where "identificationQualifier", page.identificationQualifier  %}
-
 <h1>{{ page.scientificName }} {% if page.identificationQualifier == "" %}{{ page.scientificNameAuthorship }}{% else %}{{ page.identificationQualifier}}{% endif %}</h1>
 
 <p>Family: {{ page.family }}</p>
