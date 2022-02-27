@@ -8,10 +8,10 @@ layout: page
 
 <h2>Observations</h2>
 
-<div class="row row-cols-auto">
-    {% for observation in site.observations | where: observation.scientificName, page.scientificName | where observation.identificationQualifier, page.identificationQualifier | sort observation.eventDateTime %}
+<div class="row row-cols-auto g-3">
+    {% for observation in site.observations | where: scientificName, page.scientificName | where identificationQualifier, page.identificationQualifier | sort eventDateTime %}
         <div class="card">
-            <a href="{{ site.baseurl }}{{ observation.url }}"><img class="card-img-top" alt="{{ page.scientificName }} {{ page.identificationQualifier}}" src="{{ site.baseurl }}/assets/images/thumbs/{{ observation.path | split: '/' | last | split: '.' | first }}.jpg" /></a><br />
+            <a href="{{ site.baseurl }}{{ observation.url }}"><img class="card-img-top" alt="{{ page.scientificName }} {{ page.identificationQualifier}}" src="{{ site.baseurl }}/assets/images/thumbs/{{ observation.path | split: '/' | last | split: '.' | first }}.jpg" /></a>
             <div class="card-body">
                 <p class="card-text">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-event" viewBox="0 0 16 16">
