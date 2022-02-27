@@ -11,7 +11,7 @@ layout: page
 <div class="row row-cols-auto">
     {% for observation in site.observations %}
         {% if observation.scientificName == page.scientificName and observation.identificationQualifier == page.identificationQualifier %}
-                <figure class="figure card" class="col">
+                <figure class="figure card">
                     <a href="{{ site.baseurl }}{{ observation.url }}"><img class="figure-img card-img-top img-thumbnail" alt="{{ page.scientificName }} {{ page.identificationQualifier}}" src="{{ site.baseurl }}/assets/images/thumbs/{{ observation.path | split: '/' | last | split: '.' | first }}.jpg" /></a><br />
                     <figcaption class="figure-caption card-body">
                         <p class="card-text">
