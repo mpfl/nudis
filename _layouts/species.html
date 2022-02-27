@@ -12,7 +12,7 @@ layout: page
     {% for observation in site.observations | where: scientificName, page.scientificName | where identificationQualifier, page.identificationQualifier %}
         {% if observation.scientificName == page.scientificName and observation.identificationQualifier == page.identificationQualifier %}
                 <dive class="card">
-                    <a href="{{ site.baseurl }}{{ observation.url }}"><img class="figure-img card-img-top img-thumbnail" alt="{{ page.scientificName }} {{ page.identificationQualifier}}" src="{{ site.baseurl }}/assets/images/thumbs/{{ observation.path | split: '/' | last | split: '.' | first }}.jpg" /></a><br />
+                    <a href="{{ site.baseurl }}{{ observation.url }}"><img class="card-img-top" alt="{{ page.scientificName }} {{ page.identificationQualifier}}" src="{{ site.baseurl }}/assets/images/thumbs/{{ observation.path | split: '/' | last | split: '.' | first }}.jpg" /></a><br />
                     <div class="card-body">
                         <p class="card-text">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-event" viewBox="0 0 16 16">
