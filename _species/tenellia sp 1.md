@@ -5,9 +5,13 @@ genus: Tenellia
 specificEpithet: 
 taxonRank: genus
 scientificNameAuthorship: A. Costa, 1866
-identificationQualifier: sp.
+identificationQualifier: sp. 1
 colours:
-  - FIXME
+    - black
+    - blue
+    - green
+    - white
+    - yellow
 aphiaID: 138545
 eolID: 46451428
 wikipediaURL: "https://en.wikipedia.org/wiki/Tenellia"
