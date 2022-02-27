@@ -9,11 +9,11 @@ layout: page
 <h2>Observations</h2>
 
 <div class="row row-cols-auto">
-    {% for observation in site.observations %}
+    {% for observation in site.observations | where: scientificName, page.scientificName | where identificationQualifier, page.identificationQualifier %}
         {% if observation.scientificName == page.scientificName and observation.identificationQualifier == page.identificationQualifier %}
-                <figure class="figure card">
+                <dive class="card">
                     <a href="{{ site.baseurl }}{{ observation.url }}"><img class="figure-img card-img-top img-thumbnail" alt="{{ page.scientificName }} {{ page.identificationQualifier}}" src="{{ site.baseurl }}/assets/images/thumbs/{{ observation.path | split: '/' | last | split: '.' | first }}.jpg" /></a><br />
-                    <figcaption class="figure-caption card-body">
+                    <div class="card-body">
                         <p class="card-text">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-event" viewBox="0 0 16 16">
                                 <path d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z"/>
@@ -29,8 +29,8 @@ layout: page
                             </svg>
                             <a href="http://www.openstreetmap.org/?mlat={{ observation.decimalLatitude }}&mlon={{ observation.decimalLongitude }}&zoom=12&layers=M">{{ observation.locationRemarks }}</a>
                         </p>
-                    </figcaption>
-                </figure>
+                    </div>
+                </div>
         {% endif %}
     {% endfor %}
 </div>
