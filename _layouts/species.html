@@ -10,10 +10,10 @@ layout: page
 
 <p>Family {{ page.family }}</p>
 
-{{ content }}
+{{ content | markdownify }}
 
 {% if page.taxonRemarks != "" %}
-<p>Taxonomy information from {{ page.taxonRemarks }}</p>
+<p>Taxonomy information from {{ page.taxonRemarks | markdownify }}</p>
 {% endif %}
 
 <h2>Observations</h2>
