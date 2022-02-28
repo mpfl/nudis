@@ -2,11 +2,11 @@
 layout: page
 ---
 
-<h1>{{ page.scientificName }} {% if page.identificationQualifier == "" %}{{ page.scientificNameAuthorship }}{% else %}{{ page.identificationQualifier}}{% endif %}</h1>
+<h1>{{ page.scientificName }} {% if page.identificationQualifier | strip == "" %}{{ page.scientificNameAuthorship }}{% else %}{{ page.identificationQualifier}}{% endif %}</h1>
 
 <h2>Species information</h2>
 
-<p>Identified to {{ page.taxonRank }} level. {% if page.identificationQualifier != "" %}This species is either not fully identified or undescribed.{% endif %}</p>
+<p>Identified to {{ page.taxonRank }} level. {% if page.identificationQualifier | strip != "" %}This species is either not fully identified or undescribed.{% endif %}</p>
 
 <p>Family {{ page.family }}</p>
 
