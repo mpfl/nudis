@@ -2,7 +2,7 @@
 layout: page
 ---
 
-<h1>{{ page.scientificName }} {% if (page.identificationQualifier | strip) == "" %}{{ page.scientificNameAuthorship }}{% else %}{{ page.identificationQualifier}}{% endif %}</h1>
+<h1>{{ page.scientificName }} {% if (page.identificationQualifier | strip) != "" %}{{ page.identificationQualifier }}{% else %}{{ page.scientificNameAuthorship }}{% endif %}</h1>
 
 <h2>Species information</h2>
 
