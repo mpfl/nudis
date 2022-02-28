@@ -4,7 +4,7 @@ title: About this site
 permalink: /about
 ---
 
-#{{ page.title }}
+# {{ page.title }}
 
 {% include siteStats.html %}
 
