@@ -7,7 +7,7 @@ taxonRank: genus
 scientificNameAuthorship: Pease, 1866
 identificationQualifier: sp. 3
 colours:
-    - red
+    - brown
     - white
     - yellow
 aphiaID: 558453
