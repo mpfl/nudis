@@ -5,7 +5,7 @@ genus:
 specificEpithet: 
 taxonRank: family
 scientificNameAuthorship: Rafinesque, 1815
-identificationQualifier: sp.
+identificationQualifier: sp. 1
 colours:
   - brown
   - white
