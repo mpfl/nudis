@@ -6,7 +6,7 @@ permalink: /contributing
 
 # {{ page.title }}
 
-I welcome contributions but have not yet worked out the best way to accept them.
+I welcome contributions but have not yet worked out the best way to accept them. At this stage, a GitHub account is required.
 
 ## Code of Conduct
 
