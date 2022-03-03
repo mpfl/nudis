@@ -7,24 +7,24 @@ recordedBy: Matthias Liffers
 recordedByID: https://orcid.org/0000-0002-3639-2080
 occurrenceRemarks: ""
 # Event terms
-eventDateTime: 2015-11-23T16:12:16
-year: 2015
-month: 11
-day: 23
+eventDateTime: 2017-02-26T09:34:18
+year: 2017
+month: 2
+day: 26
 # Location terms
-locationRemarks: Bicton Baths,  Bicton /  Australia
-minimumDepthInMeters: 5.92
-maximumDepthInMeters: 5.9
-decimalLatitude: -32.028239
-decimalLongitude: 115.776945
-temperature: 22
+locationRemarks: Burns Rocks, Mindarie / Australia
+minimumDepthInMeters: 6.34
+maximumDepthInMeters: 6.05
+decimalLatitude: -31.728323
+decimalLongitude: 115.707461
+temperature: 23
 # Identification terms
 identifiedBy: 
 identifiedByID: 
 # Taxon terms
-scientificName: Godiva quadricolor
+scientificName: Zoila friendii
 identificationQualifier: 
 taxonRank: species
-# Extra non-Darwin Core terms
-rating: 4
+# Non Darwin Core terms
+rating: 3
 ---

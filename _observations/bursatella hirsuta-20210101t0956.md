@@ -7,24 +7,24 @@ recordedBy: Matthias Liffers
 recordedByID: https://orcid.org/0000-0002-3639-2080
 occurrenceRemarks: "OLYMPUS DIGITAL CAMERA"
 # Event terms
-eventDateTime: 2021-01-03T10:08:33
+eventDateTime: 2021-01-01T09:56:31
 year: 2021
 month: 1
-day: 3
+day: 1
 # Location terms
-locationRemarks: Ammunition Jetty, Coogee, Australia
-minimumDepthInMeters: 6.9
-maximumDepthInMeters: 7.0
-decimalLatitude: -32.124000
-decimalLongitude: 115.758000
+locationRemarks: In the weeds, North Fremantle / Australia
+minimumDepthInMeters: 3.9
+maximumDepthInMeters: 4.4
+decimalLatitude: -32.038969
+decimalLongitude: 115.737237
 temperature: 24
 # Identification terms
 identifiedBy: 
 identifiedByID: 
 # Taxon terms
-scientificName: Margovula marginata
+scientificName: Bursatella hirsuta
 identificationQualifier: 
 taxonRank: species
-# Extra non-Darwin Core terms
+# Non Darwin Core terms
 rating: 3
 ---
