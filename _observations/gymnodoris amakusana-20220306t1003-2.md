@@ -22,9 +22,9 @@ temperature: 24
 identifiedBy: 
 identifiedByID: 
 # Taxon terms
-scientificName: Nudibranchia
-identificationQualifier: sp. 2
-taxonRank: genus
+scientificName: Gymnodoris amakusana
+identificationQualifier: 
+taxonRank: species
 # Non Darwin Core terms
 rating: 3
 ---
