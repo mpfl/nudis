@@ -12,11 +12,11 @@ year: 2016
 month: 5
 day: 29
 # Location terms
-locationRemarks: Bicton Baths, Bicton / Australia
+locationRemarks: Bicton Baths,  Bicton /  Australia
 minimumDepthInMeters: 5.45
 maximumDepthInMeters: 4.9
-decimalLatitude: -32.027626
-decimalLongitude: 115.77755
+decimalLatitude: -32.028239
+decimalLongitude: 115.776945
 temperature: 18
 # Identification terms
 identifiedBy: 

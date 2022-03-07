@@ -12,10 +12,10 @@ year: 2014
 month: 12
 day: 27
 # Location terms
-locationRemarks: Lena,  Bunbury /  Australia
+locationRemarks: Lena Wreck, Bunbury, Australia
 minimumDepthInMeters: 16.7
 maximumDepthInMeters: 17.08
-decimalLatitude: -33.296111
+decimalLatitude: -33.296099
 decimalLongitude: 115.609
 temperature: 24
 # Identification terms

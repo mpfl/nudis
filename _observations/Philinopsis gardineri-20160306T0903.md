@@ -12,11 +12,11 @@ year: 2016
 month: 3
 day: 6
 # Location terms
-locationRemarks: South Mole, Fremantle, Australia
+locationRemarks: South Mole,  Fremantle /  Australia
 minimumDepthInMeters: 2.36
 maximumDepthInMeters: 2.32
-decimalLatitude: -32.057053
-decimalLongitude: 115.738735
+decimalLatitude: -32.056888
+decimalLongitude: 115.74
 temperature: 23
 # Identification terms
 identifiedBy: 

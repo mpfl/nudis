@@ -12,11 +12,11 @@ year: 2016
 month: 3
 day: 29
 # Location terms
-locationRemarks: Ammunition Jetty, Coogee, Australia
+locationRemarks: Ammunition Jetty,  Woodman Point /  Australia
 minimumDepthInMeters: 6.48
 maximumDepthInMeters: 7.22
-decimalLatitude: -32.124
-decimalLongitude: 115.758
+decimalLatitude: -32.123948
+decimalLongitude: 115.758068
 temperature: 23
 # Identification terms
 identifiedBy: 

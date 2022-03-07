@@ -12,11 +12,11 @@ year: 2022
 month: 3
 day: 6
 # Location terms
-locationRemarks: Woodman Point Groin, Coogee
+locationRemarks: Woodman Point,  Woodman Point /  Australia
 minimumDepthInMeters: 5.0
 maximumDepthInMeters: 5.0
-decimalLatitude: -32.137831
-decimalLongitude: 115.744733
+decimalLatitude: -32.138394
+decimalLongitude: 115.743548
 temperature: 24
 # Identification terms
 identifiedBy: 

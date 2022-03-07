@@ -12,11 +12,11 @@ year: 2016
 month: 4
 day: 23
 # Location terms
-locationRemarks: Woodman Point Groin, Coogee
+locationRemarks: Woodman Point,  Woodman Point /  Australia
 minimumDepthInMeters: 5.05
 maximumDepthInMeters: 6.27
-decimalLatitude: -32.137831
-decimalLongitude: 115.744733
+decimalLatitude: -32.138394
+decimalLongitude: 115.743548
 temperature: 21
 # Identification terms
 identifiedBy: 
