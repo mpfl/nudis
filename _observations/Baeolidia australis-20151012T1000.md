@@ -26,5 +26,5 @@ scientificName: Baeolidia australis
 identificationQualifier: 
 taxonRank: species
 # Non Darwin Core terms
-rating: 3
+rating: 4
 ---

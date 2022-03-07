@@ -26,5 +26,5 @@ scientificName: Elysia coodgeensis
 identificationQualifier: 
 taxonRank: species
 # Non Darwin Core terms
-rating: 3
+rating: 4
 ---
