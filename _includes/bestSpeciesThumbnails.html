@@ -1,7 +1,7 @@
-<div markdown="0" class="row row-cols-xs-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-5 row-cols-xxl-6 g-3 mason" id="mason">
+<div markdown="0" class="row row-cols-xs-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-5 row-cols-xxl-6 g-3 speciesGrid" id="speciesGrid">
     {% for species in site.species %}
         {% assign speciesBestObservation = site.observations | where: "scientificName", species.scientificName | where: "identificationQualifier", species.identificationQualifier | sort: "rating" | last %}
-        <div class="col collapse show mason-item thumb {% for colour in species.colours %}{{ colour }} {% endfor %}{{ species.family }} {{ species.genus }}">
+        <div class="col collapse show speciesGrid-item thumb {% for colour in species.colours %}{{ colour }} {% endfor %}{{ species.family }} {{ species.genus }}">
             <div class="card">
                 <a href="{{ site.baseurl }}{{ species.url }}">
                     <img alt="{{ species.scientificName }} {{ species.identificationQualifier }}" class="card-img-top" src="{{ site.baseurl }}/assets/images/thumbs/{{ speciesBestObservation.path | split: '/' | last | split: '.' | first }}.jpg" />

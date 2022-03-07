@@ -1,28 +1,14 @@
 function init() {
-    /*
     $(window).on("load", function() {
-        $(".mason").masonry({
-            "percentPosition": true,
-            "itemSelector": ".mason-item"        
-        })
-    });
-    $(".mason").on('shown.bs.collapse', function() {
-        $(this).masonry();
-    });
-    $(".mason").on('hidden.bs.collapse', function() {
-        $(this).masonry();
-    });
-    */
-    $(window).on("load", function() {
-        $('.mason').packery({
+        $('.speciesGrid').packery({
             // options
-            itemSelector: '.mason-item',
+            itemSelector: '.speciesGrid-item',
           });
     });
-    $(".mason").on('shown.bs.collapse', function() {
+    $(".speciesGrid").on('shown.bs.collapse', function() {
         $(this).packery();;
     });
-    $(".mason").on('hidden.bs.collapse', function() {
+    $(".speciesGrid").on('hidden.bs.collapse', function() {
         $(this).packery();;
     });
 }
