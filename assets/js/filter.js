@@ -11,6 +11,9 @@ function init() {
     $(".speciesGrid").on('hidden.bs.collapse', function() {
         $(this).packery();;
     });
+    $(document).ready(function() {
+        filterThumbs();
+    });
 }
 
 function showAllThumbs() {
