@@ -12,3 +12,7 @@ permalink: /lists
 ## All species
 
 {% include speciesList.html %}
+
+## Dive sites
+
+{% include diveSiteList.html %}

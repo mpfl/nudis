@@ -1,0 +1,7 @@
+{% assign diveSites = site.observations | map: "locationRemarks" | compact | uniq | sort %}
+
+<ul>
+    {% for diveSite in diveSites %}
+        <li>{{ diveSite }}</li>
+    {% endfor %}
+</ul>
