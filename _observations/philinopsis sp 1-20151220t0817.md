@@ -16,7 +16,7 @@ locationRemarks: South Mole,  Fremantle /  Australia
 minimumDepthInMeters: 3.4
 maximumDepthInMeters: 3.38
 decimalLatitude: -32.056888
-decimalLongitude: 115.740000
+decimalLongitude: 115.74
 temperature: 22
 # Identification terms
 identifiedBy: 
@@ -25,6 +25,6 @@ identifiedByID:
 scientificName: Philinopsis
 identificationQualifier: sp. 1
 taxonRank: genus
-# Extra non-Darwin Core terms
+# Non Darwin Core terms
 rating: 3
 ---

@@ -25,6 +25,6 @@ identifiedByID:
 scientificName: Dermatobranchus
 identificationQualifier: sp. 1
 taxonRank: genus
-# Extra non-Darwin Core terms
+# Non Darwin Core terms
 rating: 3
 ---

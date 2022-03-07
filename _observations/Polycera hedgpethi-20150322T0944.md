@@ -17,7 +17,7 @@ minimumDepthInMeters: 6.98
 maximumDepthInMeters: 6.98
 decimalLatitude: -32.123948
 decimalLongitude: 115.758068
-temperature: 21
+temperature: 18
 # Identification terms
 identifiedBy: 
 identifiedByID: 
@@ -25,6 +25,6 @@ identifiedByID:
 scientificName: Polycera hedgpethi
 identificationQualifier: 
 taxonRank: species
-# Extra non-Darwin Core terms
+# Non Darwin Core terms
 rating: 3
 ---

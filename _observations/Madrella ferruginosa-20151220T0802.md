@@ -16,7 +16,7 @@ locationRemarks: South Mole,  Fremantle /  Australia
 minimumDepthInMeters: 1.7
 maximumDepthInMeters: 2.02
 decimalLatitude: -32.056888
-decimalLongitude: 115.740000
+decimalLongitude: 115.74
 temperature: 21
 # Identification terms
 identifiedBy: 
@@ -25,6 +25,6 @@ identifiedByID:
 scientificName: Madrella ferruginosa
 identificationQualifier: 
 taxonRank: species
-# Extra non-Darwin Core terms
-rating: 4
+# Non Darwin Core terms
+rating: 3
 ---

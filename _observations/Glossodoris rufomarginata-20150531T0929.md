@@ -15,9 +15,9 @@ day: 31
 locationRemarks: Marmion Angling And Aquatic Club,  Perth /  Australia
 minimumDepthInMeters: 4.76
 maximumDepthInMeters: 4.92
-decimalLatitude: -31.839000
-decimalLongitude: 115.749000
-temperature: 24
+decimalLatitude: -31.839
+decimalLongitude: 115.749
+temperature: 23
 # Identification terms
 identifiedBy: 
 identifiedByID: 
@@ -25,6 +25,6 @@ identifiedByID:
 scientificName: Glossodoris rufomarginata
 identificationQualifier: 
 taxonRank: species
-# Extra non-Darwin Core terms
+# Non Darwin Core terms
 rating: 3
 ---

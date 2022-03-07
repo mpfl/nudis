@@ -17,7 +17,7 @@ minimumDepthInMeters: 7.34
 maximumDepthInMeters: 7.08
 decimalLatitude: -32.123948
 decimalLongitude: 115.758068
-temperature: 21
+temperature: 25
 # Identification terms
 identifiedBy: 
 identifiedByID: 
@@ -25,6 +25,6 @@ identifiedByID:
 scientificName: Hypselodoris
 identificationQualifier: sp. 2
 taxonRank: genus
-# Extra non-Darwin Core terms
+# Non Darwin Core terms
 rating: 3
 ---

@@ -16,7 +16,7 @@ locationRemarks: Sue's Groyne /  Australia
 minimumDepthInMeters: 6.02
 maximumDepthInMeters: 6.08
 decimalLatitude: -32.096888
-decimalLongitude: 115.757000
+decimalLongitude: 115.757
 temperature: 21
 # Identification terms
 identifiedBy: 
@@ -25,6 +25,6 @@ identifiedByID:
 scientificName: Chromodoris colemani
 identificationQualifier: 
 taxonRank: species
-# Extra non-Darwin Core terms
+# Non Darwin Core terms
 rating: 3
 ---

@@ -19,8 +19,8 @@ decimalLatitude: -33.630113
 decimalLongitude: 115.338566
 temperature: 21
 # Identification terms
-identifiedBy: Matt J. Nimbs
-identifiedByID: https://orcid.org/0000-0003-3541-5727
+identifiedBy: 
+identifiedByID: 
 # Taxon terms
 scientificName: Bursatella hirsuta
 identificationQualifier: 

@@ -16,7 +16,7 @@ locationRemarks: Cathedrals,  Rottnest Island /  Australia
 minimumDepthInMeters: 12.48
 maximumDepthInMeters: 13.18
 decimalLatitude: -32.000888
-decimalLongitude: 115.514000
+decimalLongitude: 115.514
 temperature: 23
 # Identification terms
 identifiedBy: 

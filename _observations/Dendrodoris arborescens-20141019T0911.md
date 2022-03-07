@@ -16,7 +16,7 @@ locationRemarks: Grain Terminal,  Kwinana /  Australia
 minimumDepthInMeters: 4.52
 maximumDepthInMeters: 4.5
 decimalLatitude: -32.256193
-decimalLongitude: 115.748000
+decimalLongitude: 115.748
 temperature: 22
 # Identification terms
 identifiedBy: 
@@ -25,6 +25,6 @@ identifiedByID:
 scientificName: Dendrodoris arborescens
 identificationQualifier: 
 taxonRank: species
-# Extra non-Darwin Core terms
-rating: 4
+# Non Darwin Core terms
+rating: 3
 ---

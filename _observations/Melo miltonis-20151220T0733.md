@@ -16,7 +16,7 @@ locationRemarks: South Mole,  Fremantle /  Australia
 minimumDepthInMeters: 1.54
 maximumDepthInMeters: 1.54
 decimalLatitude: -32.056888
-decimalLongitude: 115.740000
+decimalLongitude: 115.74
 temperature: 21
 # Identification terms
 identifiedBy: 
@@ -25,6 +25,6 @@ identifiedByID:
 scientificName: Melo miltonis
 identificationQualifier: 
 taxonRank: species
-# Extra non-Darwin Core terms
+# Non Darwin Core terms
 rating: 3
 ---

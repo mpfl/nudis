@@ -16,7 +16,7 @@ locationRemarks: Lena,  Bunbury /  Australia
 minimumDepthInMeters: 16.7
 maximumDepthInMeters: 17.08
 decimalLatitude: -33.296111
-decimalLongitude: 115.609000
+decimalLongitude: 115.609
 temperature: 24
 # Identification terms
 identifiedBy: 
@@ -25,6 +25,6 @@ identifiedByID:
 scientificName: Chromodoris westraliensis
 identificationQualifier: 
 taxonRank: species
-# Extra non-Darwin Core terms
+# Non Darwin Core terms
 rating: 3
 ---

@@ -16,7 +16,7 @@ locationRemarks: Daryl's Cave System /  Australia
 minimumDepthInMeters: 18.52
 maximumDepthInMeters: 18.7
 decimalLatitude: -31.663805
-decimalLongitude: 115.631000
+decimalLongitude: 115.631
 temperature: 21
 # Identification terms
 identifiedBy: 
@@ -25,6 +25,6 @@ identifiedByID:
 scientificName: Chromodoris westraliensis
 identificationQualifier: 
 taxonRank: species
-# Extra non-Darwin Core terms
+# Non Darwin Core terms
 rating: 3
 ---

@@ -16,15 +16,15 @@ locationRemarks: South Mole,  Fremantle /  Australia
 minimumDepthInMeters: 2.3
 maximumDepthInMeters: 2.34
 decimalLatitude: -32.056888
-decimalLongitude: 115.740000
+decimalLongitude: 115.74
 temperature: 21
 # Identification terms
 identifiedBy: 
-identifiedByID:
+identifiedByID: 
 # Taxon terms
 scientificName: Bursatella hirsuta
 identificationQualifier: 
 taxonRank: species
 # Non Darwin Core terms
-rating: 4
+rating: 3
 ---

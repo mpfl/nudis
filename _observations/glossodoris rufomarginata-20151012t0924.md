@@ -26,5 +26,5 @@ scientificName: Glossodoris rufomarginata
 identificationQualifier: 
 taxonRank: species
 # Non Darwin Core terms
-rating: 4
+rating: 3
 ---

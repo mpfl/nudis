@@ -17,7 +17,7 @@ minimumDepthInMeters: 2.58
 maximumDepthInMeters: 2.56
 decimalLatitude: -32.138394
 decimalLongitude: 115.743548
-temperature: 22
+temperature: 23
 # Identification terms
 identifiedBy: 
 identifiedByID: 
@@ -25,6 +25,6 @@ identifiedByID:
 scientificName: Goniobranchus
 identificationQualifier: sp. 2
 taxonRank: genus
-# Extra non-Darwin Core terms
-rating: 4
+# Non Darwin Core terms
+rating: 3
 ---

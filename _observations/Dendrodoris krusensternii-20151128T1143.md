@@ -17,7 +17,7 @@ minimumDepthInMeters: 4.72
 maximumDepthInMeters: 4.94
 decimalLatitude: -30.300726
 decimalLongitude: 115.037155
-temperature: 25
+temperature: 22
 # Identification terms
 identifiedBy: 
 identifiedByID: 
@@ -25,6 +25,6 @@ identifiedByID:
 scientificName: Dendrodoris krusensternii
 identificationQualifier: 
 taxonRank: species
-# Extra non-Darwin Core terms
+# Non Darwin Core terms
 rating: 3
 ---

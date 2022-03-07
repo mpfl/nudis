@@ -16,8 +16,8 @@ locationRemarks: Sue's Groyne /  Australia
 minimumDepthInMeters: 4.3
 maximumDepthInMeters: 4.72
 decimalLatitude: -32.096888
-decimalLongitude: 115.757000
-temperature: 21
+decimalLongitude: 115.757
+temperature: 24
 # Identification terms
 identifiedBy: 
 identifiedByID: 
@@ -25,6 +25,6 @@ identifiedByID:
 scientificName: Hypselodoris saintvincentius
 identificationQualifier: 
 taxonRank: species
-# Extra non-Darwin Core terms
+# Non Darwin Core terms
 rating: 3
 ---

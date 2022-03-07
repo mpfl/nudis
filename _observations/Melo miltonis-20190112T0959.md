@@ -25,6 +25,6 @@ identifiedByID:
 scientificName: Melo miltonis
 identificationQualifier: 
 taxonRank: species
-# Extra non-Darwin Core terms
-rating: 4
+# Non Darwin Core terms
+rating: 3
 ---

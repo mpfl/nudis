@@ -17,7 +17,7 @@ minimumDepthInMeters: 2.08
 maximumDepthInMeters: 2.02
 decimalLatitude: -32.138394
 decimalLongitude: 115.743548
-temperature: 24
+temperature: 23
 # Identification terms
 identifiedBy: 
 identifiedByID: 
@@ -25,6 +25,6 @@ identifiedByID:
 scientificName: Chromodoris colemani
 identificationQualifier: 
 taxonRank: species
-# Extra non-Darwin Core terms
-rating: 4
+# Non Darwin Core terms
+rating: 3
 ---

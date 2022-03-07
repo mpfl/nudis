@@ -16,7 +16,7 @@ locationRemarks: Grain Terminal,  Kwinana /  Australia
 minimumDepthInMeters: 4.26
 maximumDepthInMeters: 4.04
 decimalLatitude: -32.256193
-decimalLongitude: 115.748000
+decimalLongitude: 115.748
 temperature: 21
 # Identification terms
 identifiedBy: 
@@ -25,6 +25,6 @@ identifiedByID:
 scientificName: Goniobranchus
 identificationQualifier: sp. 1
 taxonRank: genus
-# Extra non-Darwin Core terms
+# Non Darwin Core terms
 rating: 3
 ---

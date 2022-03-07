@@ -16,7 +16,7 @@ locationRemarks: Grain Terminal,  Kwinana /  Australia
 minimumDepthInMeters: 1.32
 maximumDepthInMeters: 1.3
 decimalLatitude: -32.256193
-decimalLongitude: 115.748000
+decimalLongitude: 115.748
 temperature: 20
 # Identification terms
 identifiedBy: 
@@ -25,6 +25,6 @@ identifiedByID:
 scientificName: Doriopsilla
 identificationQualifier: sp. 1
 taxonRank: genus
-# Extra non-Darwin Core terms
+# Non Darwin Core terms
 rating: 3
 ---

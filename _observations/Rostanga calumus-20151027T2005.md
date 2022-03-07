@@ -13,8 +13,8 @@ month: 10
 day: 27
 # Location terms
 locationRemarks: Ammunition Jetty,  Woodman Point /  Australia
-minimumDepthInMeters: 2.4
-maximumDepthInMeters: 2.68
+minimumDepthInMeters: 3.28
+maximumDepthInMeters: 3.3
 decimalLatitude: -32.123948
 decimalLongitude: 115.758068
 temperature: 21
@@ -25,6 +25,6 @@ identifiedByID:
 scientificName: Rostanga calumus
 identificationQualifier: 
 taxonRank: species
-# Extra non-Darwin Core terms
+# Non Darwin Core terms
 rating: 3
 ---

@@ -16,7 +16,7 @@ locationRemarks: The Caves,  Mindarie /  Australia
 minimumDepthInMeters: 10.46
 maximumDepthInMeters: 10.36
 decimalLatitude: -31.688305
-decimalLongitude: 115.648000
+decimalLongitude: 115.648
 temperature: 25
 # Identification terms
 identifiedBy: 
@@ -25,6 +25,6 @@ identifiedByID:
 scientificName: Chromodoris westraliensis
 identificationQualifier: 
 taxonRank: species
-# Extra non-Darwin Core terms
+# Non Darwin Core terms
 rating: 3
 ---

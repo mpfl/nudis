@@ -17,7 +17,7 @@ minimumDepthInMeters: 5.6
 maximumDepthInMeters: 5.66
 decimalLatitude: -32.028239
 decimalLongitude: 115.776945
-temperature: 21
+temperature: 24
 # Identification terms
 identifiedBy: 
 identifiedByID: 
@@ -25,6 +25,6 @@ identifiedByID:
 scientificName: Elysia coodgeensis
 identificationQualifier: 
 taxonRank: species
-# Extra non-Darwin Core terms
-rating: 4
+# Non Darwin Core terms
+rating: 3
 ---

@@ -17,7 +17,7 @@ minimumDepthInMeters: 6.72
 maximumDepthInMeters: 6.6
 decimalLatitude: -32.123948
 decimalLongitude: 115.758068
-temperature: 24
+temperature: 23
 # Identification terms
 identifiedBy: 
 identifiedByID: 
@@ -25,6 +25,6 @@ identifiedByID:
 scientificName: Diaphorodoris mitsuii
 identificationQualifier: 
 taxonRank: species
-# Extra non-Darwin Core terms
+# Non Darwin Core terms
 rating: 3
 ---

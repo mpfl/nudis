@@ -17,7 +17,7 @@ minimumDepthInMeters: 6.42
 maximumDepthInMeters: 6.54
 decimalLatitude: -32.123948
 decimalLongitude: 115.758068
-temperature: 21
+temperature: 23
 # Identification terms
 identifiedBy: 
 identifiedByID: 
@@ -25,6 +25,6 @@ identifiedByID:
 scientificName: Aphelodoris
 identificationQualifier: sp. 2
 taxonRank: genus
-# Extra non-Darwin Core terms
+# Non Darwin Core terms
 rating: 3
 ---

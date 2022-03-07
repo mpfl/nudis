@@ -16,7 +16,7 @@ locationRemarks: Bhp Jetty,  Kwinana /  Australia
 minimumDepthInMeters: 7.14
 maximumDepthInMeters: 6.86
 decimalLatitude: -32.208888
-decimalLongitude: 115.766000
+decimalLongitude: 115.766
 temperature: 24
 # Identification terms
 identifiedBy: 
@@ -25,6 +25,6 @@ identifiedByID:
 scientificName: Dendrodoris krusensternii
 identificationQualifier: 
 taxonRank: species
-# Extra non-Darwin Core terms
+# Non Darwin Core terms
 rating: 3
 ---

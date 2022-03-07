@@ -16,7 +16,7 @@ locationRemarks: Bhp Jetty,  Kwinana /  Australia
 minimumDepthInMeters: 7.76
 maximumDepthInMeters: 7.48
 decimalLatitude: -32.208888
-decimalLongitude: 115.766000
+decimalLongitude: 115.766
 temperature: 22
 # Identification terms
 identifiedBy: 
@@ -25,6 +25,6 @@ identifiedByID:
 scientificName: Aphelodoris
 identificationQualifier: sp. 1
 taxonRank: genus
-# Extra non-Darwin Core terms
+# Non Darwin Core terms
 rating: 3
 ---

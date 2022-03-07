@@ -17,7 +17,7 @@ minimumDepthInMeters: 5.72
 maximumDepthInMeters: 5.76
 decimalLatitude: -32.028239
 decimalLongitude: 115.776945
-temperature: 24
+temperature: 23
 # Identification terms
 identifiedBy: 
 identifiedByID: 
@@ -25,6 +25,6 @@ identifiedByID:
 scientificName: Ercolania annelyleorum
 identificationQualifier: 
 taxonRank: species
-# Extra non-Darwin Core terms
-rating: 4
+# Non Darwin Core terms
+rating: 3
 ---

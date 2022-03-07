@@ -17,7 +17,7 @@ minimumDepthInMeters: 4.26
 maximumDepthInMeters: 4.12
 decimalLatitude: -32.123948
 decimalLongitude: 115.758068
-temperature: 24
+temperature: 18
 # Identification terms
 identifiedBy: 
 identifiedByID: 
@@ -25,6 +25,6 @@ identifiedByID:
 scientificName: Trapania safracornia
 identificationQualifier: 
 taxonRank: species
-# Extra non-Darwin Core terms
-rating: 4
+# Non Darwin Core terms
+rating: 3
 ---

@@ -16,7 +16,7 @@ locationRemarks: Grain Terminal,  Kwinana /  Australia
 minimumDepthInMeters: 3.89
 maximumDepthInMeters: 3.79
 decimalLatitude: -32.256193
-decimalLongitude: 115.748000
+decimalLongitude: 115.748
 temperature: 25
 # Identification terms
 identifiedBy: 
@@ -25,6 +25,6 @@ identifiedByID:
 scientificName: Plocamopherus ceylonicus
 identificationQualifier: 
 taxonRank: species
-# Extra non-Darwin Core terms
-rating: 4
+# Non Darwin Core terms
+rating: 3
 ---

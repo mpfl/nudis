@@ -16,7 +16,7 @@ locationRemarks: Low Caves,  Rottnest /  Australia
 minimumDepthInMeters: 10.74
 maximumDepthInMeters: 11.5
 decimalLatitude: -32.005694
-decimalLongitude: 115.461000
+decimalLongitude: 115.461
 temperature: 24
 # Identification terms
 identifiedBy: 
@@ -25,6 +25,6 @@ identifiedByID:
 scientificName: Chromodoris westraliensis
 identificationQualifier: 
 taxonRank: species
-# Extra non-Darwin Core terms
+# Non Darwin Core terms
 rating: 3
 ---

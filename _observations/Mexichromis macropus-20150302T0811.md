@@ -16,7 +16,7 @@ locationRemarks: Grain Terminal,  Kwinana /  Australia
 minimumDepthInMeters: 1.02
 maximumDepthInMeters: 1.04
 decimalLatitude: -32.256193
-decimalLongitude: 115.748000
+decimalLongitude: 115.748
 temperature: 24
 # Identification terms
 identifiedBy: 
@@ -25,6 +25,6 @@ identifiedByID:
 scientificName: Mexichromis macropus
 identificationQualifier: 
 taxonRank: species
-# Extra non-Darwin Core terms
-rating: 4
+# Non Darwin Core terms
+rating: 3
 ---

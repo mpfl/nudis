@@ -16,7 +16,7 @@ locationRemarks: Robb's Jetty /  Australia
 minimumDepthInMeters: 5.08
 maximumDepthInMeters: 5.34
 decimalLatitude: -32.089388
-decimalLongitude: 115.754000
+decimalLongitude: 115.754
 temperature: 18
 # Identification terms
 identifiedBy: 
@@ -25,6 +25,6 @@ identifiedByID:
 scientificName: Hypselodoris saintvincentius
 identificationQualifier: 
 taxonRank: species
-# Extra non-Darwin Core terms
+# Non Darwin Core terms
 rating: 3
 ---

@@ -17,7 +17,7 @@ minimumDepthInMeters: 6.68
 maximumDepthInMeters: 6.32
 decimalLatitude: -32.138394
 decimalLongitude: 115.743548
-temperature: 24
+temperature: 18
 # Identification terms
 identifiedBy: 
 identifiedByID: 
@@ -25,6 +25,6 @@ identifiedByID:
 scientificName: Glossodoris rufomarginata
 identificationQualifier: 
 taxonRank: species
-# Extra non-Darwin Core terms
+# Non Darwin Core terms
 rating: 3
 ---

@@ -26,5 +26,5 @@ scientificName: Aegires villosus
 identificationQualifier: 
 taxonRank: species
 # Non Darwin Core terms
-rating: 4
+rating: 3
 ---

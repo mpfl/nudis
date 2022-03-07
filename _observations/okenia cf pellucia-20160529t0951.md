@@ -16,7 +16,7 @@ locationRemarks: Bicton Baths, Bicton / Australia
 minimumDepthInMeters: 5.26
 maximumDepthInMeters: 5.2
 decimalLatitude: -32.027626
-decimalLongitude: 115.777550
+decimalLongitude: 115.77755
 temperature: 18
 # Identification terms
 identifiedBy: 
@@ -25,6 +25,6 @@ identifiedByID:
 scientificName: Okenia
 identificationQualifier: cf. pellucia
 taxonRank: genus
-# Extra non-Darwin Core terms
-rating: 4
+# Non Darwin Core terms
+rating: 3
 ---

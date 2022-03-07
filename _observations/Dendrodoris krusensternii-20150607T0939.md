@@ -16,8 +16,8 @@ locationRemarks: Grain Terminal,  Kwinana /  Australia
 minimumDepthInMeters: 4.7
 maximumDepthInMeters: 4.78
 decimalLatitude: -32.256193
-decimalLongitude: 115.748000
-temperature: 24
+decimalLongitude: 115.748
+temperature: 18
 # Identification terms
 identifiedBy: 
 identifiedByID: 
@@ -25,6 +25,6 @@ identifiedByID:
 scientificName: Dendrodoris krusensternii
 identificationQualifier: 
 taxonRank: species
-# Extra non-Darwin Core terms
+# Non Darwin Core terms
 rating: 3
 ---
